@@ -8,8 +8,8 @@ driver = GraphDatabase.driver("bolt://13.81.200.18:7687/", auth=basic_auth("neo4
 session = driver.session()
 
 result = session.run("MATCH (a:Person) WHERE a.name = {name} "
-                       "RETURN a.name AS name",
-                       {"name": "Lana Wachowski"})
+                       "RETURN a.name AS name, a.title AS title",
+                       {"name": "Arthur"})
 for record in result:
       print("%s %s" % (record["title"], record["name"]))
 
@@ -37,4 +37,3 @@ cursor.execute(sql,record["title"])
 cnxn.commit()
 
 session.close()
-

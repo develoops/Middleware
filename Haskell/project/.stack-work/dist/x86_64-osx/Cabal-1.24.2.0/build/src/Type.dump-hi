@@ -1,0 +1,3310 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-05 22:20:17.201658 UTC
+
+interface project-0.1.0.0-A3bp1bchPHa6IfVHSogVMv:Type [orphan module] 8002
+  interface hash: fd036cc84c2be3cc8fb08bb3464291b6
+  ABI hash: 32a2312d5e66be157086efb285c503ca
+  export-list hash: b9c49b3333d0ee24c929c22cd5415170
+  orphan hash: 4582b4863fd55a6b84a87e7f08bc2f05
+  flag hash: 1c63b3609a33e43f9938d6917db9653b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Type.toCast
+  Type.toMovie
+  Type.toNodes
+  Type.Cast{Type.Cast _job _name _role}
+  Type.MGraph{Type.MGraph _links _nodes}
+  Type.MNode{Type.MNode _label _mnTitle}
+  Type.MRel{Type.MRel _source _target}
+  Type.Movie{Type.Movie _id _released _tagline _title}
+  Type.MovieInfo{Type.MovieInfo _cast _mTitle}
+module dependencies:
+package dependencies: aeson-1.0.2.1@aeson-1.0.2.1-I9AyiKnSyfEHxczxWPq1iV
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      data-binary-ieee754-0.4.4@data-binary-ieee754-0.4.4-7iiF2mP1jcB6tVSPgIyBOi
+                      data-default-0.7.1.1@data-default-0.7.1.1-7EGYJX2YWqWJRbPFUHNoCr
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK
+                      data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl
+                      data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V
+                      hashable-1.2.6.0@hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.1@integer-logarithms-1.0.1-IEHCuEd5sG4JjSjlx7m5JF
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-simple-0.4.0.5@network-simple-0.4.0.5-IajrPOJHmVZJcXm3bjN8OW
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      scientific-0.3.4.13@scientific-0.3.4.13-2xII4ZQfmEWrTXn2dbZc3
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l:Data.Default.Instances.OldLocale
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Instances
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Instances
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Structure
+         hashable-1.2.6.0@hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x:Data.Hashable.Generic
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o:Data.HashSet
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+import  -/  aeson-1.0.2.1@aeson-1.0.2.1-I9AyiKnSyfEHxczxWPq1iV:Data.Aeson d783dce7a4b29b26f4b96f1eb89a3ec5
+import  -/  aeson-1.0.2.1@aeson-1.0.2.1-I9AyiKnSyfEHxczxWPq1iV:Data.Aeson.Types.Internal 10a791f9727e7616a25034633a6de172
+import  -/  aeson-1.0.2.1@aeson-1.0.2.1-I9AyiKnSyfEHxczxWPq1iV:Data.Aeson.Types.ToJSON 1ef292a928e858cbea01c8d9f9c5f110
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Err 3bba35a16538d33d424682ce66876cdd
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt 1cca00e23f124bebfe3931123596ce55
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Record 988a85f01ef90831c5223f3e9f899d63
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Type eac92f261710d4ce479c6377298f9c2a
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text 02cbbc20bdd508fabc38de38896bbae0
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Internal a2f6f66c5bb1247458d9fa25257ab188
+680f47d45ad9e137e7a2973cd2c70967
+  $fEqCast :: GHC.Classes.Eq Type.Cast
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.Cast Type.$fEqCast_$c== Type.$fEqCast_$c/= -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fEqCast_$c/= :: Type.Cast -> Type.Cast -> GHC.Types.Bool
+  {- Arity: 2,
+     Strictness: <S(S(LLS)LL),1*U(1*U(U,U,U),1*U(U,U,U),1*U)><S(S(LLS)LL),1*U(1*U(U,U,U),1*U(U,U,U),1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Type.Cast) (b :: Type.Cast) ->
+                 case Type.$fEqCast_$c== a b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fEqCast_$c== :: Type.Cast -> Type.Cast -> GHC.Types.Bool
+  {- Arity: 2,
+     Strictness: <S(S(LLS)LL),1*U(1*U(U,U,U),1*U(U,U,U),1*U)><S(S(LLS)LL),1*U(1*U(U,U,U),1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.Cast) (w1 :: Type.Cast) ->
+                 case w of ww { Type.Cast ww1 ww2 ww3 ->
+                 case ww1 of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                 case w1 of ww8 { Type.Cast ww9 ww10 ww11 ->
+                 case ww9 of ww12 { Data.Text.Internal.Text ww13 ww14 ww15 ->
+                 Type.$w$c==
+                   ww5
+                   ww6
+                   ww7
+                   ww2
+                   ww3
+                   ww13
+                   ww14
+                   ww15
+                   ww10
+                   ww11 } } } }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fEqMGraph :: GHC.Classes.Eq Type.MGraph
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MGraph Type.$fEqMGraph_$c== Type.$fEqMGraph_$c/= -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fEqMGraph_$c/= :: Type.MGraph -> Type.MGraph -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U)><S(SL),1*U(1*U,1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Type.MGraph) (b :: Type.MGraph) ->
+                 case Type.$fEqMGraph_$c== a b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fEqMGraph_$c== :: Type.MGraph -> Type.MGraph -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U)><S(SL),1*U(1*U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MGraph) (w1 :: Type.MGraph) ->
+                 case w of ww { Type.MGraph ww1 ww2 ->
+                 case w1 of ww3 { Type.MGraph ww4 ww5 ->
+                 Type.$w$c==1 ww1 ww2 ww4 ww5 } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fEqMNode :: GHC.Classes.Eq Type.MNode
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MNode Type.$fEqMNode_$c== Type.$fEqMNode_$c/= -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fEqMNode_$c/= :: Type.MNode -> Type.MNode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(LLS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Type.MNode) (b :: Type.MNode) ->
+                 case Type.$fEqMNode_$c== a b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fEqMNode_$c== :: Type.MNode -> Type.MNode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(LLS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$c==3 ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fEqMRel :: GHC.Classes.Eq Type.MRel
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MRel Type.$fEqMRel_$c== Type.$fEqMRel_$c/= -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fEqMRel_$c/= :: Type.MRel -> Type.MRel -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)L),1*U(1*U(U),1*U(U))><S(S(S)L),1*U(1*U(U),1*U(U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MRel) (w1 :: Type.MRel) ->
+                 case w of ww { Type.MRel ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Types.I# ww4 ->
+                 case w1 of ww5 { Type.MRel ww6 ww7 ->
+                 case ww6 of ww8 { GHC.Types.I# ww9 ->
+                 Type.$w$c/= ww4 ww2 ww9 ww7 } } } }) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fEqMRel_$c== :: Type.MRel -> Type.MRel -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)L),1*U(1*U(U),1*U(U))><S(S(S)L),1*U(1*U(U),1*U(U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MRel) (w1 :: Type.MRel) ->
+                 case w of ww { Type.MRel ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Types.I# ww4 ->
+                 case w1 of ww5 { Type.MRel ww6 ww7 ->
+                 case ww6 of ww8 { GHC.Types.I# ww9 ->
+                 Type.$w$c==2 ww4 ww2 ww9 ww7 } } } }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fEqMovie :: GHC.Classes.Eq Type.Movie
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.Movie Type.$fEqMovie_$c== Type.$fEqMovie_$c/= -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fEqMovieInfo :: GHC.Classes.Eq Type.MovieInfo
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MovieInfo Type.$fEqMovieInfo_$c== Type.$fEqMovieInfo_$c/= -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fEqMovieInfo_$c/= ::
+    Type.MovieInfo -> Type.MovieInfo -> GHC.Types.Bool
+  {- Arity: 2,
+     Strictness: <S(S(LLS)L),1*U(1*U(U,U,U),1*U)><S(S(LLS)L),1*U(1*U(U,U,U),1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Type.MovieInfo) (b :: Type.MovieInfo) ->
+                 case Type.$fEqMovieInfo_$c== a b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fEqMovieInfo_$c== ::
+    Type.MovieInfo -> Type.MovieInfo -> GHC.Types.Bool
+  {- Arity: 2,
+     Strictness: <S(S(LLS)L),1*U(1*U(U,U,U),1*U)><S(S(LLS)L),1*U(1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MovieInfo) (w1 :: Type.MovieInfo) ->
+                 case w of ww { Type.MovieInfo ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MovieInfo ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$c==5 ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fEqMovie_$c/= :: Type.Movie -> Type.Movie -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)LLL),1*U(1*U(U),1*U(U,U,U),1*U(U),1*U(U,U,U))><S(S(S)LLL),1*U(1*U(U),1*U(U,U,U),1*U(U),1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Type.Movie) (b :: Type.Movie) ->
+                 case Type.$fEqMovie_$c== a b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fEqMovie_$c== :: Type.Movie -> Type.Movie -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)LLL),1*U(1*U(U),1*U(U,U,U),1*U(U),1*U(U,U,U))><S(S(S)LLL),1*U(1*U(U),1*U(U,U,U),1*U(U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.Movie) (w1 :: Type.Movie) ->
+                 case w of ww { Type.Movie ww1 ww2 ww3 ww4 ->
+                 case ww1 of ww5 { GHC.Types.I# ww6 ->
+                 case w1 of ww7 { Type.Movie ww8 ww9 ww10 ww11 ->
+                 case ww8 of ww12 { GHC.Types.I# ww13 ->
+                 Type.$w$c==4 ww6 ww2 ww3 ww4 ww13 ww9 ww10 ww11 } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode :: GHC.Classes.Ord Type.MNode
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MNode
+                  Type.$fEqMNode
+                  Type.$fOrdMNode_$ccompare
+                  Type.$fOrdMNode_$c<
+                  Type.$fOrdMNode_$c<=
+                  Type.$fOrdMNode_$c>
+                  Type.$fOrdMNode_$c>=
+                  Type.$fOrdMNode_$cmax
+                  Type.$fOrdMNode_$cmin -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$c< :: Type.MNode -> Type.MNode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$c< ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$c<= :: Type.MNode -> Type.MNode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$c<= ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$c> :: Type.MNode -> Type.MNode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$c> ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$c>= :: Type.MNode -> Type.MNode -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$c>= ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$ccompare ::
+    Type.MNode -> Type.MNode -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Type.$w$ccompare ww4 ww5 ww6 ww2 ww11 ww12 ww13 ww9 } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$cmax :: Type.MNode -> Type.MNode -> Type.MNode
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(U(U,U,U),U(U,U,U))><S(S(SSS)L),1*U(U(U,U,U),U(U,U,U))>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 case Data.Text.$w$ccompare ww4 ww5 ww6 ww11 ww12 ww13 of wild {
+                   GHC.Types.LT
+                   -> Type.MNode (Data.Text.Internal.Text ww11 ww12 ww13) ww9
+                   GHC.Types.EQ
+                   -> case ww2 of ww14 { Data.Text.Internal.Text ww15 ww16 ww17 ->
+                      case ww9 of ww18 { Data.Text.Internal.Text ww19 ww20 ww21 ->
+                      case Data.Text.$w$ccompare ww15 ww16 ww17 ww19 ww20 ww21 of wild1 {
+                        DEFAULT -> Type.MNode (Data.Text.Internal.Text ww11 ww12 ww13) ww18
+                        GHC.Types.GT
+                        -> Type.MNode (Data.Text.Internal.Text ww4 ww5 ww6) ww14 } } }
+                   GHC.Types.GT
+                   -> Type.MNode
+                        (Data.Text.Internal.Text ww4 ww5 ww6)
+                        ww2 } } } } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fOrdMNode_$cmin :: Type.MNode -> Type.MNode -> Type.MNode
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(U(U,U,U),U(U,U,U))><S(S(SSS)L),1*U(U(U,U,U),U(U,U,U))>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Type.MNode) (w1 :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { Type.MNode ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 case Data.Text.$w$ccompare ww4 ww5 ww6 ww11 ww12 ww13 of wild {
+                   GHC.Types.LT
+                   -> Type.MNode (Data.Text.Internal.Text ww4 ww5 ww6) ww2
+                   GHC.Types.EQ
+                   -> case ww2 of ww14 { Data.Text.Internal.Text ww15 ww16 ww17 ->
+                      case ww9 of ww18 { Data.Text.Internal.Text ww19 ww20 ww21 ->
+                      case Data.Text.$w$ccompare ww15 ww16 ww17 ww19 ww20 ww21 of wild1 {
+                        DEFAULT -> Type.MNode (Data.Text.Internal.Text ww4 ww5 ww6) ww14
+                        GHC.Types.GT
+                        -> Type.MNode (Data.Text.Internal.Text ww11 ww12 ww13) ww18 } } }
+                   GHC.Types.GT
+                   -> Type.MNode
+                        (Data.Text.Internal.Text ww11 ww12 ww13)
+                        ww9 } } } } }) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fShowCast :: GHC.Show.Show Type.Cast
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.Cast
+                  Type.$fShowCast_$cshowsPrec
+                  Type.$fShowCast_$cshow
+                  Type.$fShowCast_$cshowList -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fShowCast1 :: Type.Cast -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ (w :: Type.Cast) ->
+                 case w of ww { Type.Cast ww1 ww2 ww3 ->
+                 Type.$w$cshowsPrec 0# ww1 ww2 ww3 }) -}
+ceb051c8b900d9615de65313de3092ea
+  $fShowCast2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+29da961f4ea5e2339e27c436b5c302b3
+  $fShowCast3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_role = "#) -}
+fc61c5b3351013063584936ae8a11db8
+  $fShowCast4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_job = "#) -}
+dc35d72b87467fcf4035bd203f538db4
+  $fShowCast5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+e38af11a08f5080d69825ccfdd2c084e
+  $fShowCast6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_name = "#) -}
+03b50da6bd5391d22aa731b759d32d8e
+  $fShowCast7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Cast {"#) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fShowCast_$cshow :: Type.Cast -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(U(U,U,U),U(U,U,U),1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Type.Cast) ->
+                 Type.$fShowCast_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fShowCast_$cshowList :: [Type.Cast] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__ @ Type.Cast Type.$fShowCast1) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fShowCast_$cshowsPrec ::
+    GHC.Types.Int -> Type.Cast -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S(S),1*U(U)><S,1*U(U(U,U,U),U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int) (w1 :: Type.Cast) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Type.Cast ww3 ww4 ww5 ->
+                 Type.$w$cshowsPrec ww1 ww3 ww4 ww5 } }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fShowMGraph :: GHC.Show.Show Type.MGraph
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MGraph
+                  Type.$fShowMGraph_$cshowsPrec
+                  Type.$fShowMGraph_$cshow
+                  Type.$fShowMGraph_$cshowList -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fShowMGraph1 :: Type.MGraph -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Type.MGraph) (w1 :: GHC.Base.String) ->
+                 case w of ww { Type.MGraph ww1 ww2 ->
+                 Type.$w$cshowsPrec1 0# ww1 ww2 w1 }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fShowMGraph_$cshow :: Type.MGraph -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Type.MGraph) ->
+                 Type.$fShowMGraph_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fShowMGraph_$cshowList :: [Type.MGraph] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Type.MGraph
+                   Type.$fShowMGraph1) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fShowMGraph_$cshowsPrec ::
+    GHC.Types.Int -> Type.MGraph -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Type.MGraph)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Type.MGraph ww3 ww4 ->
+                 Type.$w$cshowsPrec1 ww1 ww3 ww4 w2 } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fShowMNode :: GHC.Show.Show Type.MNode
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MNode
+                  Type.$fShowMNode_$cshowsPrec
+                  Type.$fShowMNode_$cshow
+                  Type.$fShowMNode_$cshowList -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fShowMNode1 :: Type.MNode -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Type.MNode) (w1 :: GHC.Base.String) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 Type.$w$cshowsPrec2 0# ww1 ww2 w1 }) -}
+e92b89089a92e6b03cde2a5e96d1a483
+  $fShowMNode2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "MNode {"#) -}
+25f8db99b12c2275a7ba565066c9f517
+  $fShowMNode3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_label = "#) -}
+20980711b0505b2a69e48b4d86f31b94
+  $fShowMNode4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_mnTitle = "#) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fShowMNode_$cshow :: Type.MNode -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Type.MNode) ->
+                 Type.$fShowMNode_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fShowMNode_$cshowList :: [Type.MNode] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__ @ Type.MNode Type.$fShowMNode1) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fShowMNode_$cshowsPrec ::
+    GHC.Types.Int -> Type.MNode -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U(U,U,U),1*U(U,U,U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Type.MNode)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Type.MNode ww3 ww4 ->
+                 Type.$w$cshowsPrec2 ww1 ww3 ww4 w2 } }) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fShowMRel :: GHC.Show.Show Type.MRel
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MRel
+                  Type.$fShowMRel_$cshowsPrec
+                  Type.$fShowMRel_$cshow
+                  Type.$fShowMRel_$cshowList -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fShowMRel1 :: Type.MRel -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Type.MRel) (w1 :: GHC.Base.String) ->
+                 case w of ww { Type.MRel ww1 ww2 ->
+                 Type.$w$cshowsPrec3 0# ww1 ww2 w1 }) -}
+544a6cafc46071317df2a4a72ea2ef05
+  $fShowMRel2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "MRel {"#) -}
+87af64e0b207b3d20b8dd2e3961a4730
+  $fShowMRel3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_target = "#) -}
+1385757df4f6d964aacd2ef7bedcb301
+  $fShowMRel4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_source = "#) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fShowMRel_$cshow :: Type.MRel -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Type.MRel) ->
+                 Type.$fShowMRel_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fShowMRel_$cshowList :: [Type.MRel] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__ @ Type.MRel Type.$fShowMRel1) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fShowMRel_$cshowsPrec ::
+    GHC.Types.Int -> Type.MRel -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U(U),1*U(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Type.MRel)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Type.MRel ww3 ww4 ->
+                 Type.$w$cshowsPrec3 ww1 ww3 ww4 w2 } }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fShowMovie :: GHC.Show.Show Type.Movie
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.Movie
+                  Type.$fShowMovie_$cshowsPrec
+                  Type.$fShowMovie_$cshow
+                  Type.$fShowMovie_$cshowList -}
+1473a1003861c76ab06a3c81fde0a445
+  $fShowMovie1 :: Type.Movie -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Type.Movie) (w1 :: GHC.Base.String) ->
+                 case w of ww { Type.Movie ww1 ww2 ww3 ww4 ->
+                 Type.$w$cshowsPrec4 0# ww1 ww2 ww3 ww4 w1 }) -}
+9909ec9255435d4a5d171e971569a61e
+  $fShowMovie2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Movie {"#) -}
+f3280842103bea9e3f0bc1d8edf36e2b
+  $fShowMovie3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_tagline = "#) -}
+a137a81098c9ba311a5b6f6c81648890
+  $fShowMovie4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_released = "#) -}
+5db8b7a1abd770dcf11037e25d6e7aab
+  $fShowMovie5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_title = "#) -}
+307450774e95bbb652741731b4dee4e7
+  $fShowMovie6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_id = "#) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fShowMovieInfo :: GHC.Show.Show Type.MovieInfo
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MovieInfo
+                  Type.$fShowMovieInfo_$cshowsPrec
+                  Type.$fShowMovieInfo_$cshow
+                  Type.$fShowMovieInfo_$cshowList -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fShowMovieInfo1 :: Type.MovieInfo -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Type.MovieInfo) (w1 :: GHC.Base.String) ->
+                 case w of ww { Type.MovieInfo ww1 ww2 ->
+                 Type.$w$cshowsPrec5 0# ww1 ww2 w1 }) -}
+5c297bf9610695d49b4e60a143bbd493
+  $fShowMovieInfo2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "MovieInfo {"#) -}
+59dc610fd06b0f3d511e9b70d27c4ce6
+  $fShowMovieInfo3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_cast = "#) -}
+98c44e827bc26aeffc5d37ce7f494584
+  $fShowMovieInfo4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_mTitle = "#) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fShowMovieInfo_$cshow :: Type.MovieInfo -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U(U,U,U),1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Type.MovieInfo) ->
+                 Type.$fShowMovieInfo_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fShowMovieInfo_$cshowList :: [Type.MovieInfo] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Type.MovieInfo
+                   Type.$fShowMovieInfo1) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fShowMovieInfo_$cshowsPrec ::
+    GHC.Types.Int -> Type.MovieInfo -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U(U,U,U),1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Type.MovieInfo)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Type.MovieInfo ww3 ww4 ->
+                 Type.$w$cshowsPrec5 ww1 ww3 ww4 w2 } }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fShowMovie_$cshow :: Type.Movie -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U(U),1*U(U,U,U),1*U(U),1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Type.Movie) ->
+                 Type.$fShowMovie_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fShowMovie_$cshowList :: [Type.Movie] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__ @ Type.Movie Type.$fShowMovie1) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fShowMovie_$cshowsPrec ::
+    GHC.Types.Int -> Type.Movie -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U(U),1*U(U,U,U),1*U(U),1*U(U,U,U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Type.Movie)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Type.Movie ww3 ww4 ww5 ww6 ->
+                 Type.$w$cshowsPrec4 ww1 ww3 ww4 ww5 ww6 w2 } }) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fToJSONCast :: Data.Aeson.Types.ToJSON.ToJSON Type.Cast
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.Cast
+                  Type.$fToJSONCast_$ctoJSON
+                  Type.$fToJSONCast_$ctoEncoding
+                  Type.$fToJSONCast_$ctoJSONList
+                  Type.$fToJSONCast_$ctoEncodingList -}
+f6f269882d3ebfd74b37cac4cbf86960
+  $fToJSONCast1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "role"#) -}
+15bc5c67fa1f29ac357d62371d2a6e4b
+  $fToJSONCast2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "job"#) -}
+162b4fc00897d0967fa8ec2bd92ff7d7
+  $fToJSONCast3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "name"#) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fToJSONCast_$ctoEncoding ::
+    Type.Cast -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(U,U,1*U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Type.Cast) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONCast_$ctoJSON eta)) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fToJSONCast_$ctoEncodingList ::
+    [Type.Cast] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.Cast]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value (Type.$fToJSONCast_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Type.Cast
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Type.Cast)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONCast_$ctoJSON v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Type.Cast>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fToJSONCast_$ctoJSON ::
+    Type.Cast -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(U,U,1*U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Type.Cast) ->
+                 case w of ww { Type.Cast ww1 ww2 ww3 ->
+                 case Type.$w$ctoJSON ww1 ww2 ww3 of ww4 { Unit# ww5 ->
+                 Data.Aeson.Types.Internal.Object ww5 } }) -}
+0a896b7f45cdb495af343142bdb8440d
+  $fToJSONCast_$ctoJSON1 ::
+    Database.Bolt.Value.Type.Value -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U> -}
+680f47d45ad9e137e7a2973cd2c70967
+  $fToJSONCast_$ctoJSONList ::
+    [Type.Cast] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.Cast]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Type.Cast
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Type.Cast
+                                       c
+                                       Type.$fToJSONCast_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fToJSONMGraph :: Data.Aeson.Types.ToJSON.ToJSON Type.MGraph
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MGraph
+                  Type.$fToJSONMGraph_$ctoJSON
+                  Type.$fToJSONMGraph_$ctoEncoding
+                  Type.$fToJSONMGraph_$ctoJSONList
+                  Type.$fToJSONMGraph_$ctoEncodingList -}
+2f189b39e733dc8ee3a7226617e42dcc
+  $fToJSONMGraph1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "target"#) -}
+f56c47f118d2d48d237a79f964ac6d90
+  $fToJSONMGraph2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "source"#) -}
+1c384a673e412698d946bb2699fbebb1
+  $fToJSONMGraph3 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          Data.Aeson.Types.Internal.Value,
+        GHC.Types.Int)
+    -> [Data.Aeson.Types.Internal.Value]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             Data.Aeson.Types.Internal.Value,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+5dfd5b91705c3e2fca27056ab7defc48
+  $fToJSONMGraph4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "links"#) -}
+a0de582dd7ca381302ea0a7a23f5060e
+  $fToJSONMGraph5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "label"#) -}
+964cc75f5926d007b4ce12404dc50e5d
+  $fToJSONMGraph6 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "title"#) -}
+dacc52e6e33e3b670b7656fd10f47657
+  $fToJSONMGraph7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+cdba1db0f062cab84cd9d0a3600e03ff
+  $fToJSONMGraph8 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          Data.Aeson.Types.Internal.Value,
+        GHC.Types.Int)
+    -> [Data.Aeson.Types.Internal.Value]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             Data.Aeson.Types.Internal.Value,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+0d747753b9d49957c94479ebe22cbacd
+  $fToJSONMGraph9 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "nodes"#) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fToJSONMGraph_$ctoEncoding ::
+    Type.MGraph -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Type.MGraph) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONMGraph_$ctoJSON eta)) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fToJSONMGraph_$ctoEncodingList ::
+    [Type.MGraph] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MGraph]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Type.$fToJSONMGraph_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Type.MGraph
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Type.MGraph)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONMGraph_$ctoJSON v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Type.MGraph>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fToJSONMGraph_$ctoJSON ::
+    Type.MGraph -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Type.MGraph) ->
+                 case w of ww { Type.MGraph ww1 ww2 ->
+                 case Type.$w$ctoJSON1 ww1 ww2 of ww3 { Unit# ww4 ->
+                 Data.Aeson.Types.Internal.Object ww4 } }) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fToJSONMGraph_$ctoJSON1 ::
+    Type.MRel -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>m1,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Type.MRel) ->
+                 case w of ww { Type.MRel ww1 ww2 ->
+                 case Type.$w$ctoJSON2 ww1 ww2 of ww3 { Unit# ww4 ->
+                 Data.Aeson.Types.Internal.Object ww4 } }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fToJSONMGraph_$ctoJSON2 ::
+    Type.MNode -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(U,U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Type.MNode) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Type.$fToJSONMGraph6, Data.Aeson.Types.Internal.$WString ww1)
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Type.$fToJSONMGraph5, Data.Aeson.Types.Internal.$WString ww2)
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt } }) -}
+37279ab0c38bc7ab6c816e765fbea45c
+  $fToJSONMGraph_$ctoJSONList ::
+    [Type.MGraph] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MGraph]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Type.MGraph
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Type.MGraph
+                                       c
+                                       Type.$fToJSONMGraph_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fToJSONMNode :: Data.Aeson.Types.ToJSON.ToJSON Type.MNode
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MNode
+                  Type.$fToJSONMGraph_$ctoJSON2
+                  Type.$fToJSONMNode_$ctoEncoding
+                  Type.$fToJSONMNode_$ctoJSONList
+                  Type.$fToJSONMNode_$ctoEncodingList -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fToJSONMNode_$ctoEncoding ::
+    Type.MNode -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(U,U)>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Type.MNode) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONMGraph_$ctoJSON2 eta)) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fToJSONMNode_$ctoEncodingList ::
+    [Type.MNode] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MNode]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Type.$fToJSONMGraph_$ctoJSON2 x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Type.MNode
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Type.MNode)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONMGraph_$ctoJSON2 v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Type.MNode>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+80253960f4a6090ed794d3e56d7e36ab
+  $fToJSONMNode_$ctoJSONList ::
+    [Type.MNode] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MNode]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Type.MNode
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Type.MNode
+                                       c
+                                       Type.$fToJSONMGraph_$ctoJSON2)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fToJSONMRel :: Data.Aeson.Types.ToJSON.ToJSON Type.MRel
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MRel
+                  Type.$fToJSONMGraph_$ctoJSON1
+                  Type.$fToJSONMRel_$ctoEncoding
+                  Type.$fToJSONMRel_$ctoJSONList
+                  Type.$fToJSONMRel_$ctoEncodingList -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fToJSONMRel_$ctoEncoding ::
+    Type.MRel -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Type.MRel) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONMGraph_$ctoJSON1 eta)) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fToJSONMRel_$ctoEncodingList ::
+    [Type.MRel] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MRel]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Type.$fToJSONMGraph_$ctoJSON1 x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Type.MRel
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Type.MRel)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONMGraph_$ctoJSON1 v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Type.MRel>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  $fToJSONMRel_$ctoJSONList ::
+    [Type.MRel] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MRel]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Type.MRel
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Type.MRel
+                                       c
+                                       Type.$fToJSONMGraph_$ctoJSON1)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fToJSONMovie :: Data.Aeson.Types.ToJSON.ToJSON Type.Movie
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.Movie
+                  Type.$fToJSONMovie_$ctoJSON
+                  Type.$fToJSONMovie_$ctoEncoding
+                  Type.$fToJSONMovie_$ctoJSONList
+                  Type.$fToJSONMovie_$ctoEncodingList -}
+a17d4e5ac1110c96830ba11438e2c4da
+  $fToJSONMovie1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "tagline"#) -}
+ea204918906ee3c26b104170fc4b5db4
+  $fToJSONMovie2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "released"#) -}
+4389f61f0f2e203f3832df2da6ad2429
+  $fToJSONMovie3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "id"#) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fToJSONMovieInfo :: Data.Aeson.Types.ToJSON.ToJSON Type.MovieInfo
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Type.MovieInfo
+                  Type.$fToJSONMovieInfo_$ctoJSON
+                  Type.$fToJSONMovieInfo_$ctoEncoding
+                  Type.$fToJSONMovieInfo_$ctoJSONList
+                  Type.$fToJSONMovieInfo_$ctoEncodingList -}
+b68608fc7bc51b02960411fd2f953935
+  $fToJSONMovieInfo1 ::
+    GHC.Types.SPEC
+    -> (Data.Vector.Generic.Base.Mutable
+          Data.Vector.Vector
+          (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+          Data.Aeson.Types.Internal.Value,
+        GHC.Types.Int)
+    -> [Data.Aeson.Types.Internal.Value]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          (Data.Vector.Generic.Base.Mutable
+             Data.Vector.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             Data.Aeson.Types.Internal.Value,
+           GHC.Types.Int) #)
+  {- Arity: 4, Strictness: <S,1*U><L,U(U(U,U,U),U(U))><S,1*U><S,U> -}
+3071e453a7ad32352299ee66ae05d170
+  $fToJSONMovieInfo2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "cast"#) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fToJSONMovieInfo_$ctoEncoding ::
+    Type.MovieInfo -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(U,1*U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Type.MovieInfo) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONMovieInfo_$ctoJSON eta)) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fToJSONMovieInfo_$ctoEncodingList ::
+    [Type.MovieInfo] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MovieInfo]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Type.$fToJSONMovieInfo_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Type.MovieInfo
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Type.MovieInfo)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONMovieInfo_$ctoJSON v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Type.MovieInfo>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fToJSONMovieInfo_$ctoJSON ::
+    Type.MovieInfo -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(U,1*U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Type.MovieInfo) ->
+                 case w of ww { Type.MovieInfo ww1 ww2 ->
+                 case Type.$w$ctoJSON4 ww1 ww2 of ww3 { Unit# ww4 ->
+                 Data.Aeson.Types.Internal.Object ww4 } }) -}
+a328f8d1e3fa686f40de6e1d83946842
+  $fToJSONMovieInfo_$ctoJSONList ::
+    [Type.MovieInfo] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.MovieInfo]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Type.MovieInfo
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Type.MovieInfo
+                                       c
+                                       Type.$fToJSONMovieInfo_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fToJSONMovie_$ctoEncoding ::
+    Type.Movie -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),U,1*U(U),U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Type.Movie) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONMovie_$ctoJSON eta)) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fToJSONMovie_$ctoEncodingList ::
+    [Type.Movie] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.Movie]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Type.$fToJSONMovie_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Type.Movie
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Type.Movie)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONMovie_$ctoJSON v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Type.Movie>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fToJSONMovie_$ctoJSON ::
+    Type.Movie -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),U,1*U(U),U)>m1,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Type.Movie) ->
+                 case w of ww { Type.Movie ww1 ww2 ww3 ww4 ->
+                 case Type.$w$ctoJSON3 ww1 ww2 ww3 ww4 of ww5 { Unit# ww6 ->
+                 Data.Aeson.Types.Internal.Object ww6 } }) -}
+1473a1003861c76ab06a3c81fde0a445
+  $fToJSONMovie_$ctoJSONList ::
+    [Type.Movie] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Type.Movie]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Type.Movie
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Type.Movie
+                                       c
+                                       Type.$fToJSONMovie_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+f587d3a31b7d2f8710b395d9b15e5949
+  $fToJSONValue ::
+    Data.Aeson.Types.ToJSON.ToJSON Database.Bolt.Value.Type.Value
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Database.Bolt.Value.Type.Value
+                  Type.$fToJSONCast_$ctoJSON1
+                  Type.$fToJSONValue_$ctoEncoding
+                  Type.$fToJSONValue_$ctoJSONList
+                  Type.$fToJSONValue_$ctoEncodingList -}
+ec7126864b53c7b5f3903a066fa99140
+  $fToJSONValue_$ctoEncoding ::
+    Database.Bolt.Value.Type.Value
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Database.Bolt.Value.Type.Value) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Type.$fToJSONCast_$ctoJSON1 eta)) -}
+5d77c14a39d52cc49c90631ac178610e
+  $fToJSONValue_$ctoEncodingList ::
+    [Database.Bolt.Value.Type.Value]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Database.Bolt.Value.Type.Value]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Type.$fToJSONCast_$ctoJSON1 x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Database.Bolt.Value.Type.Value
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Database.Bolt.Value.Type.Value)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Type.$fToJSONCast_$ctoJSON1 v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Database.Bolt.Value.Type.Value>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+3ceba29175a8325e11e514f0598aeb47
+  $fToJSONValue_$ctoJSONList ::
+    [Database.Bolt.Value.Type.Value] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Database.Bolt.Value.Type.Value]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Database.Bolt.Value.Type.Value
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Database.Bolt.Value.Type.Value
+                                       c
+                                       Type.$fToJSONCast_$ctoJSON1)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+73eddda059c177784cd8d268fb169689
+  $tc'Cast :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4286944327978281848##
+                   4860955355708122424##
+                   Type.$trModule
+                   Type.$tc'Cast1) -}
+4529fe7b629bd61200315161daa77038
+  $tc'Cast1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Cast"#) -}
+251f7bca8601e1c7e6a6bbd1fcef5794
+  $tc'MGraph :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15779468355672094849##
+                   14480533295230351879##
+                   Type.$trModule
+                   Type.$tc'MGraph1) -}
+675ba4715f102a0c5f3ced4cba939803
+  $tc'MGraph1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MGraph"#) -}
+cd1173e439e9f45abc6bb9bedae8eb38
+  $tc'MNode :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3903707053621318273##
+                   8176388149333152204##
+                   Type.$trModule
+                   Type.$tc'MNode1) -}
+9aa3acdbc314fdf4fc8827e2712c08ba
+  $tc'MNode1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MNode"#) -}
+3f55a1450e345a889c5bf5bb2d8bf38f
+  $tc'MRel :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4974366806352172194##
+                   7621231746230491812##
+                   Type.$trModule
+                   Type.$tc'MRel1) -}
+780c23c442f8f7c9235d7e10ffa2db54
+  $tc'MRel1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MRel"#) -}
+cd8b158191079bffb403286662c09e9b
+  $tc'Movie :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10162446855752366401##
+                   1033834327460262522##
+                   Type.$trModule
+                   Type.$tc'Movie1) -}
+53beef39d98ed3a950edd39cf9471784
+  $tc'Movie1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Movie"#) -}
+d7f24d84f38cb9ca49527af0e6057271
+  $tc'MovieInfo :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17376756591153881287##
+                   5653283186128145168##
+                   Type.$trModule
+                   Type.$tc'MovieInfo1) -}
+f2a919659ed338e9b72b887650f81ca8
+  $tc'MovieInfo1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'MovieInfo"#) -}
+ad26cf80977f03b86ecc64161d9efb82
+  $tcCast :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5933441572409460772##
+                   8899158401264449130##
+                   Type.$trModule
+                   Type.$tcCast1) -}
+9f4e08fbe18f9a4acf7a3eb93579b44c
+  $tcCast1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Cast"#) -}
+88a9c61e1b13faa13d030af66ff2759f
+  $tcMGraph :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2083034932225680863##
+                   5976283397044308792##
+                   Type.$trModule
+                   Type.$tcMGraph1) -}
+3368c95ad3d2cd4860a3c1381bacd31e
+  $tcMGraph1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "MGraph"#) -}
+37f92ee38965f7042e261fe267013ac1
+  $tcMNode :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12823558605177056718##
+                   17353468408084976798##
+                   Type.$trModule
+                   Type.$tcMNode1) -}
+2296d865ae051c902f7f7e4dc9272938
+  $tcMNode1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "MNode"#) -}
+166523ab6c40813b683bc8113dc7776f
+  $tcMRel :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15963184765076710654##
+                   2202136640368603366##
+                   Type.$trModule
+                   Type.$tcMRel1) -}
+24eaa85a022c2f0c5ed8acf934ae1667
+  $tcMRel1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "MRel"#) -}
+9f239d3f258016da5e41009330df9f12
+  $tcMovie :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10921402658872644714##
+                   5972111492011727446##
+                   Type.$trModule
+                   Type.$tcMovie1) -}
+1d7c34ee972256943966cf41e3be9640
+  $tcMovie1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Movie"#) -}
+f7ceecb903813bfa0e8bae796b6b3cc7
+  $tcMovieInfo :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   445993022811494100##
+                   8764508134596764937##
+                   Type.$trModule
+                   Type.$tcMovieInfo1) -}
+6d5591a2c17a53be3157886930eb97c6
+  $tcMovieInfo1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "MovieInfo"#) -}
+78ff2d41f9c4d60f6baf14f9af628993
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Type.$trModule2 Type.$trModule1) -}
+d460266028cbd570e4c927af83e79243
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Type"#) -}
+e84856c8de04d66bdf643655de5e8998
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "project-0.1.0.0-A3bp1bchPHa6IfVHSogVMv"#) -}
+79a164dcac73eb163734b2eab2aa8a5b
+  $w$c/= ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S,U><L,1*U(U)><S,U><L,1*U(U)>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Types.Int)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: GHC.Types.Int) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww ww2) of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case ww1 of wild1 { GHC.Types.I# x ->
+                      case ww3 of wild2 { GHC.Types.I# y ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.==# x y) of wild3 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True -> GHC.Types.False } } } }) -}
+e5d111818c4754fe9d190cbf7990e842
+  $w$c< ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,U><S,U><S,U><L,1*U(U,U,U)><S,U><S,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case Data.Text.$w$ccompare ww ww1 ww2 ww4 ww5 ww6 of wild {
+                   GHC.Types.LT -> GHC.Types.True
+                   GHC.Types.EQ -> Data.Text.$fOrdText_$c< ww3 ww7
+                   GHC.Types.GT -> GHC.Types.False }) -}
+78d2d70f2b9bd7e90ccc0c8501cbb697
+  $w$c<= ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,U><S,U><S,U><L,1*U(U,U,U)><S,U><S,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case Data.Text.$w$ccompare ww ww1 ww2 ww4 ww5 ww6 of wild {
+                   GHC.Types.LT -> GHC.Types.True
+                   GHC.Types.EQ -> Data.Text.$fOrdText_$c<= ww3 ww7
+                   GHC.Types.GT -> GHC.Types.False }) -}
+d83d6f66a5aff79a759ac6c75f979155
+  $w$c== ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> Database.Bolt.Value.Type.Value
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> Database.Bolt.Value.Type.Value
+    -> GHC.Types.Bool
+  {- Arity: 10,
+     Strictness: <L,U><L,U><S,U><L,1*U(U,U,U)><L,1*U><L,U><L,U><S,U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: Database.Bolt.Value.Type.Value)
+                   (ww5 :: GHC.Prim.ByteArray#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: GHC.Prim.Int#)
+                   (ww8 :: Data.Text.Internal.Text)
+                   (ww9 :: Database.Bolt.Value.Type.Value) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww2 ww7) of wild2 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case {__pkg_ccall text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld
+                                                                                                         -> (# GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld,
+                                                                                                               GHC.Prim.Int# #)}
+                             ww
+                             (GHC.Prim.int2Word# ww1)
+                             ww5
+                             (GHC.Prim.int2Word# ww6)
+                             (GHC.Prim.int2Word# ww2)
+                             GHC.Prim.realWorld# of wild { (#,#) ds11 ds12 ->
+                      case GHC.Prim.narrow32Int# ds12 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        0#
+                        -> case ww3 of wild3 { Data.Text.Internal.Text dt dt1 dt2 ->
+                           case ww8 of wild4 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                           case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.==# dt2 dt5) of wild5 {
+                             GHC.Types.False -> GHC.Types.False
+                             GHC.Types.True
+                             -> case {__pkg_ccall text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                   -> GHC.Prim.Word#
+                                                                                                                   -> GHC.Prim.ByteArray#
+                                                                                                                   -> GHC.Prim.Word#
+                                                                                                                   -> GHC.Prim.Word#
+                                                                                                                   -> GHC.Prim.State#
+                                                                                                                        GHC.Prim.RealWorld
+                                                                                                                   -> (# GHC.Prim.State#
+                                                                                                                           GHC.Prim.RealWorld,
+                                                                                                                         GHC.Prim.Int# #)}
+                                       dt
+                                       (GHC.Prim.int2Word# dt1)
+                                       dt3
+                                       (GHC.Prim.int2Word# dt4)
+                                       (GHC.Prim.int2Word# dt2)
+                                       GHC.Prim.realWorld# of wild6 { (#,#) ds1 ds2 ->
+                                case GHC.Prim.narrow32Int# ds2 of wild7 {
+                                  DEFAULT -> GHC.Types.False
+                                  0#
+                                  -> Database.Bolt.Value.Type.$fEqValue_$c==
+                                       ww4
+                                       ww9 } } } } } } } }) -}
+de0ef3a9587ac9999564999dd85fc6a4
+  $w$c==1 ::
+    [Type.MNode]
+    -> [Type.MRel] -> [Type.MNode] -> [Type.MRel] -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: [Type.MNode])
+                   (ww1 :: [Type.MRel])
+                   (ww2 :: [Type.MNode])
+                   (ww3 :: [Type.MRel]) ->
+                 case GHC.Classes.$fEq[]_$c==
+                        @ Type.MNode
+                        Type.$fEqMNode
+                        ww
+                        ww2 of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> GHC.Classes.$fEq[]_$c== @ Type.MRel Type.$fEqMRel ww1 ww3 }) -}
+a0667812cefb72f52538f4a534196950
+  $w$c==2 ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S,U><L,1*U(U)><S,U><L,1*U(U)>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Types.Int)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: GHC.Types.Int) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww ww2) of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True -> GHC.Classes.eqInt ww1 ww3 }) -}
+39441cd29a22fd5166f9fe5f967a0cb9
+  $w$c==3 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <L,U><L,U><S,U><L,1*U(U,U,U)><L,U><L,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww2 ww6) of wild2 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case {__pkg_ccall text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld
+                                                                                                         -> (# GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld,
+                                                                                                               GHC.Prim.Int# #)}
+                             ww
+                             (GHC.Prim.int2Word# ww1)
+                             ww4
+                             (GHC.Prim.int2Word# ww5)
+                             (GHC.Prim.int2Word# ww2)
+                             GHC.Prim.realWorld# of wild { (#,#) ds11 ds12 ->
+                      case GHC.Prim.narrow32Int# ds12 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        0# -> Data.Text.$fEqText_$c== ww3 ww7 } } }) -}
+dc8b613d265f69f6a4a214848d5149b6
+  $w$c==4 ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,U><L,1*U(U,U,U)><L,1*U(U)><L,1*U(U,U,U)><S,U><L,1*U(U,U,U)><L,1*U(U)><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Types.Int)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.Int#)
+                   (ww5 :: Data.Text.Internal.Text)
+                   (ww6 :: GHC.Types.Int)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww ww4) of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case ww1 of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                      case ww5 of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.==# dt2 dt5) of wild3 {
+                        GHC.Types.False -> GHC.Types.False
+                        GHC.Types.True
+                        -> case {__pkg_ccall text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.ByteArray#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.Word#
+                                                                                                              -> GHC.Prim.State#
+                                                                                                                   GHC.Prim.RealWorld
+                                                                                                              -> (# GHC.Prim.State#
+                                                                                                                      GHC.Prim.RealWorld,
+                                                                                                                    GHC.Prim.Int# #)}
+                                  dt
+                                  (GHC.Prim.int2Word# dt1)
+                                  dt3
+                                  (GHC.Prim.int2Word# dt4)
+                                  (GHC.Prim.int2Word# dt2)
+                                  GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                           case GHC.Prim.narrow32Int# ds12 of wild5 {
+                             DEFAULT -> GHC.Types.False
+                             0#
+                             -> case ww2 of wild6 { GHC.Types.I# x ->
+                                case ww6 of wild7 { GHC.Types.I# y ->
+                                case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.==# x y) of wild8 {
+                                  GHC.Types.False -> GHC.Types.False
+                                  GHC.Types.True
+                                  -> Data.Text.$fEqText_$c== ww3 ww7 } } } } } } } } }) -}
+e90884d8c016090bd43f951ae7c058fd
+  $w$c==5 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Type.Cast]
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Type.Cast]
+    -> GHC.Types.Bool
+  {- Arity: 8,
+     Strictness: <L,U><L,U><S,U><L,1*U><L,U><L,U><S,U><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: [Type.Cast])
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: [Type.Cast]) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww2 ww6) of wild2 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case {__pkg_ccall text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld
+                                                                                                         -> (# GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld,
+                                                                                                               GHC.Prim.Int# #)}
+                             ww
+                             (GHC.Prim.int2Word# ww1)
+                             ww4
+                             (GHC.Prim.int2Word# ww5)
+                             (GHC.Prim.int2Word# ww2)
+                             GHC.Prim.realWorld# of wild { (#,#) ds11 ds12 ->
+                      case GHC.Prim.narrow32Int# ds12 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        0#
+                        -> GHC.Classes.$fEq[]_$c==
+                             @ Type.Cast
+                             Type.$fEqCast
+                             ww3
+                             ww7 } } }) -}
+0cd3963e8f3c6340ca7ec5e43e056c2f
+  $w$c> ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,U><S,U><S,U><L,1*U(U,U,U)><S,U><S,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case Data.Text.$w$ccompare ww ww1 ww2 ww4 ww5 ww6 of wild {
+                   GHC.Types.LT -> GHC.Types.False
+                   GHC.Types.EQ -> Data.Text.$fOrdText_$c> ww3 ww7
+                   GHC.Types.GT -> GHC.Types.True }) -}
+dc849d5fec9f6a41a9e45d57f8759d4f
+  $w$c>= ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,U><S,U><S,U><L,1*U(U,U,U)><S,U><S,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case Data.Text.$w$ccompare ww ww1 ww2 ww4 ww5 ww6 of wild {
+                   GHC.Types.LT -> GHC.Types.False
+                   GHC.Types.EQ -> Data.Text.$fOrdText_$c>= ww3 ww7
+                   GHC.Types.GT -> GHC.Types.True }) -}
+0b314093e3b3d5fd60b86cea4e9d444e
+  $w$ccompare ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Ordering
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,U><S,U><S,U><L,1*U(U,U,U)><S,U><S,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case Data.Text.$w$ccompare ww ww1 ww2 ww4 ww5 ww6 of wild {
+                   GHC.Types.LT -> GHC.Types.LT
+                   GHC.Types.EQ -> Data.Text.$fOrdText_$ccompare ww3 ww7
+                   GHC.Types.GT -> GHC.Types.GT }) -}
+7d5e4ef86c1b9d72301e58e2b89ad075
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Database.Bolt.Value.Type.Value
+    -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <S,U><L,U(U,U,U)><L,U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: Data.Text.Internal.Text)
+                   (ww3 :: Database.Bolt.Value.Type.Value) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = Database.Bolt.Value.Type.$w$cshowsPrec1 0# ww3
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String) ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Type.$fShowCast7
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Type.$fShowCast6
+                          (case Data.Text.Show.$w$cshowsPrec
+                                  ww1
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Type.$fShowCast5
+                                     (GHC.Base.++
+                                        @ GHC.Types.Char
+                                        Type.$fShowCast4
+                                        (case Data.Text.Show.$w$cshowsPrec
+                                                ww2
+                                                (GHC.Base.++
+                                                   @ GHC.Types.Char
+                                                   Type.$fShowCast5
+                                                   (GHC.Base.++
+                                                      @ GHC.Types.Char
+                                                      Type.$fShowCast3
+                                                      (f (GHC.Base.++
+                                                            @ GHC.Types.Char
+                                                            Type.$fShowCast2
+                                                            x)))) of ww4 { (#,#) ww5 ww6 ->
+                                         GHC.Types.:
+                                           @ GHC.Types.Char
+                                           ww5
+                                           ww6 }))) of ww4 { (#,#) ww5 ww6 ->
+                           GHC.Types.: @ GHC.Types.Char ww5 ww6 }))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 x)) }) -}
+0201022a036c69bfbefd75d6b6c34c65
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> [Type.MNode]
+    -> [Type.MRel]
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,1*U><L,U>, Inline: [0] -}
+ec29cb0a6470fa76a270abcd8e4b13fe
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U(U,U,U)><L,1*U(U,U,U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: Data.Text.Internal.Text)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Type.$fShowMNode4
+                       (case Data.Text.Show.$w$cshowsPrec
+                               ww1
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Type.$fShowCast5
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Type.$fShowMNode3
+                                     (case Data.Text.Show.$w$cshowsPrec
+                                             ww2
+                                             (GHC.Base.++
+                                                @ GHC.Types.Char
+                                                Type.$fShowCast2
+                                                x) of ww3 { (#,#) ww4 ww5 ->
+                                      GHC.Types.:
+                                        @ GHC.Types.Char
+                                        ww4
+                                        ww5 }))) of ww3 { (#,#) ww4 ww5 ->
+                        GHC.Types.: @ GHC.Types.Char ww4 ww5 })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Type.$fShowMNode2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Type.$fShowMNode2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+99678410e0c51512d3bc2db8e15d47e7
+  $w$cshowsPrec3 ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U(U)><L,1*U(U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Types.Int)
+                   (ww2 :: GHC.Types.Int)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Type.$fShowMRel4
+                       (case ww1 of ww3 { GHC.Types.I# ww4 ->
+                        case GHC.Show.$wshowSignedInt
+                               0#
+                               ww4
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Type.$fShowCast5
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Type.$fShowMRel3
+                                     (case ww2 of ww5 { GHC.Types.I# ww6 ->
+                                      case GHC.Show.$wshowSignedInt
+                                             0#
+                                             ww6
+                                             (GHC.Base.++
+                                                @ GHC.Types.Char
+                                                Type.$fShowCast2
+                                                x) of ww7 { (#,#) ww8 ww9 ->
+                                      GHC.Types.:
+                                        @ GHC.Types.Char
+                                        ww8
+                                        ww9 } }))) of ww5 { (#,#) ww6 ww7 ->
+                        GHC.Types.: @ GHC.Types.Char ww6 ww7 } })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Type.$fShowMRel2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Type.$fShowMRel2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+84b959e2859ab14305ac94d189ae23e9
+  $w$cshowsPrec4 ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 6,
+     Strictness: <S,U><L,1*U(U)><L,1*U(U,U,U)><L,1*U(U)><L,1*U(U,U,U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Types.Int)
+                   (ww2 :: Data.Text.Internal.Text)
+                   (ww3 :: GHC.Types.Int)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Type.$fShowMovie6
+                       (case ww1 of ww5 { GHC.Types.I# ww6 ->
+                        case GHC.Show.$wshowSignedInt
+                               0#
+                               ww6
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Type.$fShowCast5
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Type.$fShowMovie5
+                                     (case Data.Text.Show.$w$cshowsPrec
+                                             ww2
+                                             (GHC.Base.++
+                                                @ GHC.Types.Char
+                                                Type.$fShowCast5
+                                                (GHC.Base.++
+                                                   @ GHC.Types.Char
+                                                   Type.$fShowMovie4
+                                                   (case ww3 of ww7 { GHC.Types.I# ww8 ->
+                                                    case GHC.Show.$wshowSignedInt
+                                                           0#
+                                                           ww8
+                                                           (GHC.Base.++
+                                                              @ GHC.Types.Char
+                                                              Type.$fShowCast5
+                                                              (GHC.Base.++
+                                                                 @ GHC.Types.Char
+                                                                 Type.$fShowMovie3
+                                                                 (case Data.Text.Show.$w$cshowsPrec
+                                                                         ww4
+                                                                         (GHC.Base.++
+                                                                            @ GHC.Types.Char
+                                                                            Type.$fShowCast2
+                                                                            x) of ww9 { (#,#) ww10 ww11 ->
+                                                                  GHC.Types.:
+                                                                    @ GHC.Types.Char
+                                                                    ww10
+                                                                    ww11 }))) of ww9 { (#,#) ww10 ww11 ->
+                                                    GHC.Types.:
+                                                      @ GHC.Types.Char
+                                                      ww10
+                                                      ww11 } }))) of ww7 { (#,#) ww8 ww9 ->
+                                      GHC.Types.:
+                                        @ GHC.Types.Char
+                                        ww8
+                                        ww9 }))) of ww7 { (#,#) ww8 ww9 ->
+                        GHC.Types.: @ GHC.Types.Char ww8 ww9 } })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Type.$fShowMovie2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Type.$fShowMovie2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+9c2d024b2e89d4060631a10c4b21d7d5
+  $w$cshowsPrec5 ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> [Type.Cast]
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U(U,U,U)><L,1*U><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: [Type.Cast])
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Type.$fShowMovieInfo4
+                       (case Data.Text.Show.$w$cshowsPrec
+                               ww1
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Type.$fShowCast5
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Type.$fShowMovieInfo3
+                                     (let {
+                                        s :: GHC.Base.String
+                                        = GHC.Base.++ @ GHC.Types.Char Type.$fShowCast2 x
+                                      } in
+                                      case ww2 of wild {
+                                        [] -> GHC.CString.unpackAppendCString# "[]"# s
+                                        : x1 xs
+                                        -> GHC.Types.:
+                                             @ GHC.Types.Char
+                                             GHC.Show.showList__2
+                                             (case x1 of ww3 { Type.Cast ww4 ww5 ww6 ->
+                                              Type.$w$cshowsPrec
+                                                0#
+                                                ww4
+                                                ww5
+                                                ww6
+                                                (let {
+                                                   lvl27 :: [GHC.Types.Char]
+                                                   = GHC.Types.:
+                                                       @ GHC.Types.Char
+                                                       GHC.Show.showList__1
+                                                       s
+                                                 } in
+                                                 letrec {
+                                                   showl :: [Type.Cast] -> GHC.Base.String
+                                                     {- Arity: 1, Strictness: <S,1*U> -}
+                                                   = \ (ds2 :: [Type.Cast]) ->
+                                                     case ds2 of wild1 {
+                                                       [] -> lvl27
+                                                       : y ys
+                                                       -> GHC.Types.:
+                                                            @ GHC.Types.Char
+                                                            GHC.Show.shows5
+                                                            (case y of ww7 { Type.Cast ww8 ww9 ww10 ->
+                                                             Type.$w$cshowsPrec
+                                                               0#
+                                                               ww8
+                                                               ww9
+                                                               ww10
+                                                               (showl ys) }) }
+                                                 } in
+                                                 showl xs) }) }))) of ww3 { (#,#) ww4 ww5 ->
+                        GHC.Types.: @ GHC.Types.Char ww4 ww5 })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Type.$fShowMovieInfo2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Type.$fShowMovieInfo2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+bf466afc67776dcdd9e16075e855fe49
+  $w$ctoJSON ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Database.Bolt.Value.Type.Value
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Data.Text.Internal.Text)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: Database.Bolt.Value.Type.Value) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Type.$fToJSONCast3, Data.Aeson.Types.Internal.$WString ww)
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Type.$fToJSONCast2, Data.Aeson.Types.Internal.$WString ww1)
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Pair
+                                 (Type.$fToJSONCast1, Type.$fToJSONCast_$ctoJSON1 ww2)
+                                 (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+3207cf754d31737a7121577772256c5d
+  $w$ctoJSON1 ::
+    [Type.MNode]
+    -> [Type.MRel] -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 2, Strictness: <L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: [Type.MNode]) (ww1 :: [Type.MRel]) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Type.$fToJSONMGraph9,
+                            case GHC.Magic.runRW#
+                                   @ 'GHC.Types.PtrRepLifted
+                                   @ (Data.Vector.Vector Data.Aeson.Types.Internal.Value)
+                                   (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                    case GHC.Prim.newArray#
+                                           @ Data.Aeson.Types.Internal.Value
+                                           @ (Control.Monad.Primitive.PrimState
+                                                (GHC.ST.ST GHC.Prim.RealWorld))
+                                           0#
+                                           (Data.Vector.Mutable.uninitialised
+                                              @ Data.Aeson.Types.Internal.Value)
+                                           s1
+                                             `cast`
+                                           (GHC.Prim.State#
+                                              (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                        <GHC.Prim.RealWorld>_N)))_R of ds1 { (#,#) ipv ipv1 ->
+                                    case Type.$fToJSONMGraph8
+                                           GHC.Types.SPEC
+                                           ((Data.Vector.Mutable.MVector
+                                               @ (Control.Monad.Primitive.PrimState
+                                                    (GHC.ST.ST GHC.Prim.RealWorld))
+                                               @ Data.Aeson.Types.Internal.Value
+                                               0#
+                                               0#
+                                               ipv1)
+                                              `cast`
+                                            (Sub (Sym (Data.Vector.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                             (GHC.ST.ST
+                                                                                                GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N),
+                                            Type.$fToJSONMGraph7)
+                                           (GHC.Base.map
+                                              @ Type.MNode
+                                              @ Data.Aeson.Types.Internal.Value
+                                              Type.$fToJSONMGraph_$ctoJSON2
+                                              ww)
+                                           ipv
+                                             `cast`
+                                           (GHC.Prim.State#
+                                              (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                   <GHC.Prim.RealWorld>_N))_R of ds2 { (#,#) ipv6 ipv7 ->
+                                    case ipv7 of wild5 { (,) v' n ->
+                                    case v'
+                                           `cast`
+                                         (Sub (Data.Vector.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                                    (GHC.ST.ST
+                                                                                       GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N) of wild { Data.Vector.Mutable.MVector dt dt1 dt2 ->
+                                    case n of dt5 { GHC.Types.I# dt6 ->
+                                    case GHC.Prim.unsafeFreezeArray#
+                                           @ (Control.Monad.Primitive.PrimState
+                                                (GHC.ST.ST GHC.Prim.RealWorld))
+                                           @ Data.Aeson.Types.Internal.Value
+                                           dt2
+                                           ipv6
+                                             `cast`
+                                           (GHC.Prim.State#
+                                              (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                        <GHC.Prim.RealWorld>_N)))_R of ds4 { (#,#) ipv2 ipv3 ->
+                                    (# ipv2
+                                         `cast`
+                                       (GHC.Prim.State#
+                                          (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                               <GHC.Prim.RealWorld>_N))_R,
+                                       Data.Vector.Vector
+                                         @ Data.Aeson.Types.Internal.Value
+                                         dt
+                                         dt6
+                                         ipv3 #) } } } } } }) of ds1 { (#,#) ipv1 ipv2 ->
+                            case ipv2 of dt1 { Data.Vector.Vector ipv ipv4 ipv5 ->
+                            Data.Aeson.Types.Internal.Array dt1 } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Type.$fToJSONMGraph4,
+                               case GHC.Magic.runRW#
+                                      @ 'GHC.Types.PtrRepLifted
+                                      @ (Data.Vector.Vector Data.Aeson.Types.Internal.Value)
+                                      (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                       case GHC.Prim.newArray#
+                                              @ Data.Aeson.Types.Internal.Value
+                                              @ (Control.Monad.Primitive.PrimState
+                                                   (GHC.ST.ST GHC.Prim.RealWorld))
+                                              0#
+                                              (Data.Vector.Mutable.uninitialised
+                                                 @ Data.Aeson.Types.Internal.Value)
+                                              s1
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <GHC.Prim.RealWorld>_N)))_R of ds1 { (#,#) ipv ipv1 ->
+                                       case Type.$fToJSONMGraph3
+                                              GHC.Types.SPEC
+                                              ((Data.Vector.Mutable.MVector
+                                                  @ (Control.Monad.Primitive.PrimState
+                                                       (GHC.ST.ST GHC.Prim.RealWorld))
+                                                  @ Data.Aeson.Types.Internal.Value
+                                                  0#
+                                                  0#
+                                                  ipv1)
+                                                 `cast`
+                                               (Sub (Sym (Data.Vector.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                                (GHC.ST.ST
+                                                                                                   GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N),
+                                               Type.$fToJSONMGraph7)
+                                              (GHC.Base.map
+                                                 @ Type.MRel
+                                                 @ Data.Aeson.Types.Internal.Value
+                                                 Type.$fToJSONMGraph_$ctoJSON1
+                                                 ww1)
+                                              ipv
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                      <GHC.Prim.RealWorld>_N))_R of ds2 { (#,#) ipv6 ipv7 ->
+                                       case ipv7 of wild5 { (,) v' n ->
+                                       case v'
+                                              `cast`
+                                            (Sub (Data.Vector.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                                       (GHC.ST.ST
+                                                                                          GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N) of wild { Data.Vector.Mutable.MVector dt dt1 dt2 ->
+                                       case n of dt5 { GHC.Types.I# dt6 ->
+                                       case GHC.Prim.unsafeFreezeArray#
+                                              @ (Control.Monad.Primitive.PrimState
+                                                   (GHC.ST.ST GHC.Prim.RealWorld))
+                                              @ Data.Aeson.Types.Internal.Value
+                                              dt2
+                                              ipv6
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <GHC.Prim.RealWorld>_N)))_R of ds4 { (#,#) ipv2 ipv3 ->
+                                       (# ipv2
+                                            `cast`
+                                          (GHC.Prim.State#
+                                             (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                  <GHC.Prim.RealWorld>_N))_R,
+                                          Data.Vector.Vector
+                                            @ Data.Aeson.Types.Internal.Value
+                                            dt
+                                            dt6
+                                            ipv3 #) } } } } } }) of ds1 { (#,#) ipv1 ipv2 ->
+                               case ipv2 of dt1 { Data.Vector.Vector ipv ipv4 ipv5 ->
+                               Data.Aeson.Types.Internal.Array dt1 } })
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+8698ced66479b274decd0641dfefde39
+  $w$ctoJSON2 ::
+    GHC.Types.Int
+    -> GHC.Types.Int -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U(U)>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Types.Int) (ww1 :: GHC.Types.Int) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Type.$fToJSONMGraph2,
+                            case ww of wild { GHC.Types.I# i ->
+                            case GHC.Integer.Type.smallInteger i of dt { DEFAULT ->
+                            Data.Aeson.Types.Internal.Number
+                              (Data.Scientific.Scientific dt 0#) } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Type.$fToJSONMGraph1,
+                               case ww1 of wild { GHC.Types.I# i ->
+                               case GHC.Integer.Type.smallInteger i of dt { DEFAULT ->
+                               Data.Aeson.Types.Internal.Number
+                                 (Data.Scientific.Scientific dt 0#) } })
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+577ab2963590475bb5687ffe9a03b30f
+  $w$ctoJSON3 ::
+    GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 4, Strictness: <L,1*U(U)><L,U><L,1*U(U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Types.Int)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Types.Int)
+                   (ww3 :: Data.Text.Internal.Text) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Type.$fToJSONMovie3,
+                            case ww of wild { GHC.Types.I# i ->
+                            case GHC.Integer.Type.smallInteger i of dt { DEFAULT ->
+                            Data.Aeson.Types.Internal.Number
+                              (Data.Scientific.Scientific dt 0#) } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Type.$fToJSONMGraph6, Data.Aeson.Types.Internal.$WString ww1)
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Pair
+                                 (Type.$fToJSONMovie2,
+                                  case ww2 of wild { GHC.Types.I# i ->
+                                  case GHC.Integer.Type.smallInteger i of dt { DEFAULT ->
+                                  Data.Aeson.Types.Internal.Number
+                                    (Data.Scientific.Scientific dt 0#) } })
+                                 (GHC.Types.:
+                                    @ Data.Aeson.Types.Internal.Pair
+                                    (Type.$fToJSONMovie1, Data.Aeson.Types.Internal.$WString ww3)
+                                    (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+8c85d9c40d2d2ea7917eeb0c2ccf6569
+  $w$ctoJSON4 ::
+    Data.Text.Internal.Text
+    -> [Type.Cast] -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 2, Strictness: <L,U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Data.Text.Internal.Text)
+                   (ww1 :: [Type.Cast]) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Type.$fToJSONMGraph6, Data.Aeson.Types.Internal.$WString ww)
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Type.$fToJSONMovieInfo2,
+                               case GHC.Magic.runRW#
+                                      @ 'GHC.Types.PtrRepLifted
+                                      @ (Data.Vector.Vector Data.Aeson.Types.Internal.Value)
+                                      (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                       case GHC.Prim.newArray#
+                                              @ Data.Aeson.Types.Internal.Value
+                                              @ (Control.Monad.Primitive.PrimState
+                                                   (GHC.ST.ST GHC.Prim.RealWorld))
+                                              0#
+                                              (Data.Vector.Mutable.uninitialised
+                                                 @ Data.Aeson.Types.Internal.Value)
+                                              s1
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <GHC.Prim.RealWorld>_N)))_R of ds1 { (#,#) ipv ipv1 ->
+                                       case Type.$fToJSONMovieInfo1
+                                              GHC.Types.SPEC
+                                              ((Data.Vector.Mutable.MVector
+                                                  @ (Control.Monad.Primitive.PrimState
+                                                       (GHC.ST.ST GHC.Prim.RealWorld))
+                                                  @ Data.Aeson.Types.Internal.Value
+                                                  0#
+                                                  0#
+                                                  ipv1)
+                                                 `cast`
+                                               (Sub (Sym (Data.Vector.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                                (GHC.ST.ST
+                                                                                                   GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N),
+                                               Type.$fToJSONMGraph7)
+                                              (GHC.Base.map
+                                                 @ Type.Cast
+                                                 @ Data.Aeson.Types.Internal.Value
+                                                 Type.$fToJSONCast_$ctoJSON
+                                                 ww1)
+                                              ipv
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                      <GHC.Prim.RealWorld>_N))_R of ds2 { (#,#) ipv6 ipv7 ->
+                                       case ipv7 of wild5 { (,) v' n ->
+                                       case v'
+                                              `cast`
+                                            (Sub (Data.Vector.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                                       (GHC.ST.ST
+                                                                                          GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N) of wild { Data.Vector.Mutable.MVector dt dt1 dt2 ->
+                                       case n of dt5 { GHC.Types.I# dt6 ->
+                                       case GHC.Prim.unsafeFreezeArray#
+                                              @ (Control.Monad.Primitive.PrimState
+                                                   (GHC.ST.ST GHC.Prim.RealWorld))
+                                              @ Data.Aeson.Types.Internal.Value
+                                              dt2
+                                              ipv6
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <GHC.Prim.RealWorld>_N)))_R of ds4 { (#,#) ipv2 ipv3 ->
+                                       (# ipv2
+                                            `cast`
+                                          (GHC.Prim.State#
+                                             (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                  <GHC.Prim.RealWorld>_N))_R,
+                                          Data.Vector.Vector
+                                            @ Data.Aeson.Types.Internal.Value
+                                            dt
+                                            dt6
+                                            ipv3 #) } } } } } }) of ds1 { (#,#) ipv1 ipv2 ->
+                               case ipv2 of dt1 { Data.Vector.Vector ipv ipv4 ipv5 ->
+                               Data.Aeson.Types.Internal.Array dt1 } })
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+680f47d45ad9e137e7a2973cd2c70967
+  data Cast
+    = Cast {_name :: Data.Text.Internal.Text,
+            _job :: Data.Text.Internal.Text,
+            _role :: Database.Bolt.Value.Type.Value}
+37279ab0c38bc7ab6c816e765fbea45c
+  data MGraph
+    = MGraph {_nodes :: [Type.MNode], _links :: [Type.MRel]}
+80253960f4a6090ed794d3e56d7e36ab
+  data MNode
+    = MNode {_mnTitle :: Data.Text.Internal.Text,
+             _label :: Data.Text.Internal.Text}
+3e93a0766d4fa20f9c51a64ea6d85c27
+  data MRel
+    = MRel {_source :: GHC.Types.Int, _target :: GHC.Types.Int}
+1473a1003861c76ab06a3c81fde0a445
+  data Movie
+    = Movie {_id :: GHC.Types.Int,
+             _title :: Data.Text.Internal.Text,
+             _released :: GHC.Types.Int,
+             _tagline :: Data.Text.Internal.Text}
+a328f8d1e3fa686f40de6e1d83946842
+  data MovieInfo
+    = MovieInfo {_mTitle :: Data.Text.Internal.Text,
+                 _cast :: [Type.Cast]}
+7ddcc0bc0281d7dc538c28798ad226d7
+  _cast :: Type.MovieInfo -> [Type.Cast]
+  RecSel Left Type.MovieInfo
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MovieInfo) ->
+                 case ds of wild { Type.MovieInfo ds1 ds2 -> ds2 }) -}
+c73bade2fd71490775377e3d71c1ee11
+  _id :: Type.Movie -> GHC.Types.Int
+  RecSel Left Type.Movie
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLL),1*U(1*U(U),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Movie) ->
+                 case ds of wild { Type.Movie ds1 ds2 ds3 ds4 -> ds1 }) -}
+f9e499d885c83c756bf5ac4885055e8b
+  _job :: Type.Cast -> Data.Text.Internal.Text
+  RecSel Left Type.Cast
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSL),1*U(A,1*U(U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Cast) ->
+                 case ds of wild { Type.Cast ds1 ds2 ds3 -> ds2 }) -}
+cff92765cf6f4b6fe870bd493e9f3b19
+  _label :: Type.MNode -> Data.Text.Internal.Text
+  RecSel Left Type.MNode
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MNode) ->
+                 case ds of wild { Type.MNode ds1 ds2 -> ds2 }) -}
+3ae57e4aef09f414974c71f10f37c471
+  _links :: Type.MGraph -> [Type.MRel]
+  RecSel Left Type.MGraph
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MGraph) ->
+                 case ds of wild { Type.MGraph ds1 ds2 -> ds2 }) -}
+0d126325f8335fb898a8586d92df0e47
+  _mTitle :: Type.MovieInfo -> Data.Text.Internal.Text
+  RecSel Left Type.MovieInfo
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MovieInfo) ->
+                 case ds of wild { Type.MovieInfo ds1 ds2 -> ds1 }) -}
+cbefcaf32a35b1c0565d1ae18893b676
+  _mnTitle :: Type.MNode -> Data.Text.Internal.Text
+  RecSel Left Type.MNode
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MNode) ->
+                 case ds of wild { Type.MNode ds1 ds2 -> ds1 }) -}
+6d3c4d2f177356fadba0a0f0fba4dbeb
+  _name :: Type.Cast -> Data.Text.Internal.Text
+  RecSel Left Type.Cast
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U(U,U,U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Cast) ->
+                 case ds of wild { Type.Cast ds1 ds2 ds3 -> ds1 }) -}
+b4dc943c55c6a8d41357aca34f01decb
+  _nodes :: Type.MGraph -> [Type.MNode]
+  RecSel Left Type.MGraph
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MGraph) ->
+                 case ds of wild { Type.MGraph ds1 ds2 -> ds1 }) -}
+35555c9f02d2c397d9de4c4543a37b45
+  _released :: Type.Movie -> GHC.Types.Int
+  RecSel Left Type.Movie
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSL),1*U(A,A,1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Movie) ->
+                 case ds of wild { Type.Movie ds1 ds2 ds3 ds4 -> ds3 }) -}
+60fb75cd6c3a7db5b75b69c761459b62
+  _role :: Type.Cast -> Database.Bolt.Value.Type.Value
+  RecSel Left Type.Cast
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Cast) ->
+                 case ds of wild { Type.Cast ds1 ds2 ds3 -> ds3 }) -}
+1cc140c3d453c72bbc6af76fb57c2d9d
+  _source :: Type.MRel -> GHC.Types.Int
+  RecSel Left Type.MRel
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MRel) ->
+                 case ds of wild { Type.MRel ds1 ds2 -> ds1 }) -}
+554aa776bda9e59ce8f1c0b11fc6ccf0
+  _tagline :: Type.Movie -> Data.Text.Internal.Text
+  RecSel Left Type.Movie
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLS),1*U(A,A,A,1*U(U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Movie) ->
+                 case ds of wild { Type.Movie ds1 ds2 ds3 ds4 -> ds4 }) -}
+58488990b2848497135c9acd5a6d6adb
+  _target :: Type.MRel -> GHC.Types.Int
+  RecSel Left Type.MRel
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.MRel) ->
+                 case ds of wild { Type.MRel ds1 ds2 -> ds2 }) -}
+d0c6c651e748829d830f854d4ecdb102
+  _title :: Type.Movie -> Data.Text.Internal.Text
+  RecSel Left Type.Movie
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLL),1*U(A,1*U(U,U,U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Type.Movie) ->
+                 case ds of wild { Type.Movie ds1 ds2 ds3 ds4 -> ds2 }) -}
+8fa02c1f7d694f4a6f41bebb2b1ef04f
+  toCast ::
+    GHC.Base.Monad m => Database.Bolt.Value.Type.Value -> m Type.Cast
+  {- Arity: 2, Strictness: <S,1*U(A,A,A,1*C1(U),1*C1(U))><S,1*U>,
+     Unfolding: (\ @ (m :: * -> *)
+                   ($dMonad :: GHC.Base.Monad m)
+                   (ds :: Database.Bolt.Value.Type.Value) ->
+                 case ds of wild {
+                   DEFAULT -> GHC.Base.fail @ m $dMonad @ Type.Cast Type.toCast1
+                   Database.Bolt.Value.Type.L ds1
+                   -> case ds1 of wild1 {
+                        [] -> GHC.Base.fail @ m $dMonad @ Type.Cast Type.toCast1
+                        : ds2 ds3
+                        -> case ds2 of wild2 {
+                             DEFAULT -> GHC.Base.fail @ m $dMonad @ Type.Cast Type.toCast1
+                             Database.Bolt.Value.Type.T name
+                             -> case ds3 of wild3 {
+                                  [] -> GHC.Base.fail @ m $dMonad @ Type.Cast Type.toCast1
+                                  : ds4 ds5
+                                  -> case ds4 of wild4 {
+                                       DEFAULT -> GHC.Base.fail @ m $dMonad @ Type.Cast Type.toCast1
+                                       Database.Bolt.Value.Type.T job
+                                       -> case ds5 of wild5 {
+                                            [] -> GHC.Base.fail @ m $dMonad @ Type.Cast Type.toCast1
+                                            : role' ds6
+                                            -> case ds6 of wild6 {
+                                                 []
+                                                 -> GHC.Base.return
+                                                      @ m
+                                                      $dMonad
+                                                      @ Type.Cast
+                                                      (Type.Cast name job role')
+                                                 : ipv ipv1
+                                                 -> GHC.Base.fail
+                                                      @ m
+                                                      $dMonad
+                                                      @ Type.Cast
+                                                      Type.toCast1 } } } } } } }) -}
+61ac89da7713f2533cffc2d9eda26cfc
+  toCast1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Not a Cast value"#) -}
+fd3d482c37ea484047ae009d22900159
+  toMovie ::
+    GHC.Base.Monad m => Database.Bolt.Value.Type.Value -> m Type.Movie
+  {- Arity: 2,
+     Strictness: <S(LC(C(S))LLL),U(U(U(C(C1(U)),A),A,A,A,A),C(C1(U)),A,U,C(U))><L,1*U> -}
+cd1a61602e7c432a74692b91370d12f7
+  toNodes ::
+    GHC.Base.Monad m =>
+    Database.Bolt.Record.Record -> m (Type.MNode, [Type.MNode])
+  {- Arity: 2, Strictness: <S(LC(C(S))LLL),U(U,U,U,U,U)><L,U>,
+     Unfolding: (\ @ (m :: * -> *)
+                   ($dMonad :: GHC.Base.Monad m)
+                   (eta :: Database.Bolt.Record.Record) ->
+                 let {
+                   lvl20 :: m [Data.Text.Internal.Text]
+                   = GHC.Base.>>=
+                       @ m
+                       $dMonad
+                       @ Database.Bolt.Value.Type.Value
+                       @ [Data.Text.Internal.Text]
+                       (case Type.$fToJSONMovieInfo2 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                        Database.Bolt.Record.$wat @ m $dMonad eta ww1 ww2 ww3 })
+                       (Database.Bolt.Record.$fRecordValue[]_$cexact
+                          @ Data.Text.Internal.Text
+                          Database.Bolt.Record.$fRecordValueText_$cexact
+                            `cast`
+                          (Sym (Database.Bolt.Record.N:RecordValue[0]
+                                    <Data.Text.Internal.Text>_N))
+                          @ m
+                          $dMonad)
+                 } in
+                 GHC.Base.>>=
+                   @ m
+                   $dMonad
+                   @ Data.Text.Internal.Text
+                   @ (Type.MNode, [Type.MNode])
+                   (GHC.Base.>>=
+                      @ m
+                      $dMonad
+                      @ Database.Bolt.Value.Type.Value
+                      @ Data.Text.Internal.Text
+                      (case Type.toNodes3 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                       Database.Bolt.Record.$wat @ m $dMonad eta ww1 ww2 ww3 })
+                      (Database.Bolt.Record.$fRecordValueText_$cexact @ m $dMonad))
+                   (\ (ds :: Data.Text.Internal.Text) ->
+                    let {
+                      lvl21 :: Type.MNode {- Strictness: m -}
+                      = Type.MNode ds Type.toNodes3
+                    } in
+                    GHC.Base.>>=
+                      @ m
+                      $dMonad
+                      @ [Data.Text.Internal.Text]
+                      @ (Type.MNode, [Type.MNode])
+                      lvl20
+                      (\ (ds1 :: [Data.Text.Internal.Text]) ->
+                       GHC.Base.return
+                         @ m
+                         $dMonad
+                         @ (Type.MNode, [Type.MNode])
+                         (lvl21,
+                          GHC.Base.map
+                            @ Data.Text.Internal.Text
+                            @ Type.MNode
+                            Type.toNodes1
+                            ds1)))) -}
+3a680b9cb174e99cb1ec21efb5513513
+  toNodes1 :: Data.Text.Internal.Text -> Type.MNode
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Data.Text.Internal.Text) ->
+                 Type.MNode ds Type.toNodes2) -}
+6bc90d7ddb812c4288542bebc7deabc8
+  toNodes2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "actor"#) -}
+8b0bf35c7e764f55cdf93ad298ad0eec
+  toNodes3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "movie"#) -}
+instance GHC.Classes.Eq [Type.Cast] = Type.$fEqCast
+instance GHC.Classes.Eq [Type.MGraph] = Type.$fEqMGraph
+instance GHC.Classes.Eq [Type.MNode] = Type.$fEqMNode
+instance GHC.Classes.Eq [Type.MRel] = Type.$fEqMRel
+instance GHC.Classes.Eq [Type.Movie] = Type.$fEqMovie
+instance GHC.Classes.Eq [Type.MovieInfo] = Type.$fEqMovieInfo
+instance GHC.Classes.Ord [Type.MNode] = Type.$fOrdMNode
+instance GHC.Show.Show [Type.Cast] = Type.$fShowCast
+instance GHC.Show.Show [Type.MGraph] = Type.$fShowMGraph
+instance GHC.Show.Show [Type.MNode] = Type.$fShowMNode
+instance GHC.Show.Show [Type.MRel] = Type.$fShowMRel
+instance GHC.Show.Show [Type.Movie] = Type.$fShowMovie
+instance GHC.Show.Show [Type.MovieInfo] = Type.$fShowMovieInfo
+instance Data.Aeson.Types.ToJSON.ToJSON [Type.Cast]
+  = Type.$fToJSONCast
+instance Data.Aeson.Types.ToJSON.ToJSON [Type.MGraph]
+  = Type.$fToJSONMGraph
+instance Data.Aeson.Types.ToJSON.ToJSON [Type.MNode]
+  = Type.$fToJSONMNode
+instance Data.Aeson.Types.ToJSON.ToJSON [Type.MRel]
+  = Type.$fToJSONMRel
+instance Data.Aeson.Types.ToJSON.ToJSON [Type.Movie]
+  = Type.$fToJSONMovie
+instance Data.Aeson.Types.ToJSON.ToJSON [Type.MovieInfo]
+  = Type.$fToJSONMovieInfo
+instance Data.Aeson.Types.ToJSON.ToJSON [Database.Bolt.Value.Type.Value]
+  = Type.$fToJSONValue
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

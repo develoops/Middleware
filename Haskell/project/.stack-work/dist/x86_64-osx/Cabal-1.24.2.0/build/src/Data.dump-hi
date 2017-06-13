@@ -1,0 +1,997 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-05 22:20:19.973035 UTC
+
+interface project-0.1.0.0-A3bp1bchPHa6IfVHSogVMv:Data 8002
+  interface hash: 70ebd424dfc531b92f172265e152ddea
+  ABI hash: ada3cb31747333a211b2d6724078e276
+  export-list hash: 4f28be61bed105df5c3a51bff0318a4c
+  orphan hash: 2814c7e250f873db3f95188ab0a495c3
+  flag hash: 727e0adebc9748dc8e424166443818c0
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Data.constructState
+  Data.queryGraph
+  Data.queryMovie
+  Data.querySearch
+  Data.ServerState{Data.ServerState pool}
+  Data.WebM
+module dependencies: Type
+package dependencies: aeson-1.0.2.1@aeson-1.0.2.1-I9AyiKnSyfEHxczxWPq1iV
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      data-binary-ieee754-0.4.4@data-binary-ieee754-0.4.4-7iiF2mP1jcB6tVSPgIyBOi
+                      data-default-0.7.1.1@data-default-0.7.1.1-7EGYJX2YWqWJRbPFUHNoCr
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK
+                      data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl
+                      data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V
+                      hashable-1.2.6.0@hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.1@integer-logarithms-1.0.1-IEHCuEd5sG4JjSjlx7m5JF
+                      monad-control-1.0.1.0@monad-control-1.0.1.0-LQwQ0Hi5p0oAccTfTzbfD5
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-simple-0.4.0.5@network-simple-0.4.0.5-IajrPOJHmVZJcXm3bjN8OW
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      resource-pool-0.2.3.2@resource-pool-0.2.3.2-1AOSrWwsk6kGNVrZRdikMV
+                      scientific-0.3.4.13@scientific-0.3.4.13-2xII4ZQfmEWrTXn2dbZc3
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l:Data.Default.Instances.OldLocale
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Instances
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Instances
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Structure
+         hashable-1.2.6.0@hashable-1.2.6.0-3EXxoqeEgbfAKr6aGkye6x:Data.Hashable.Generic
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         project-0.1.0.0-A3bp1bchPHa6IfVHSogVMv:Type
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-ECR7lrm2wO64uP6OW8ZTCi:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         monad-control-1.0.1.0@monad-control-1.0.1.0-LQwQ0Hi5p0oAccTfTzbfD5:Control.Monad.Trans.Control
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-1XEErQCPPPc2SEtcHHNx9o:Data.HashSet
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.Maybe d876c4ffe4b3c43755a781e8ad860d88
+import  -/  base-4.9.1.0:Data.Monoid 51cc9cd8c130d49ba96b7c2c2406022b
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:Data.Traversable 556020d7cf3c4a34a774600512918a37
+import  -/  base-4.9.1.0:Data.Tuple 7dc4bbb45d2e69c991ffac438beeca11
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base 8b155a212edaca6c85bcefe65a8bc505
+import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Map.Strict f81ee5f2f6ed64270eb463b87b6da821
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt 1cca00e23f124bebfe3931123596ce55
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection 2cdb47a4e91c279445d9b02767e0fd27
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Pipe c063ddaf3295f98a4b578f04e9a0769d
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Type e1297497276cd22a929ee86b3fb6c185
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Record 988a85f01ef90831c5223f3e9f899d63
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Type eac92f261710d4ce479c6377298f9c2a
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Trans d69bc2e104a90fb918d853b240f7af2e
+import  -/  Type 32a2312d5e66be157086efb285c503ca
+  exports: b9c49b3333d0ee24c929c22cd5415170
+  MGraph 35ab29f6f586c00c043fe5e0600e1762
+  MGraph 37279ab0c38bc7ab6c816e765fbea45c
+  MRel 2ac1a472e35613185f86f0b97a0906e2
+  Movie 1473a1003861c76ab06a3c81fde0a445
+  MovieInfo 0c04972ec123366594297a581b13fd29
+  MovieInfo a328f8d1e3fa686f40de6e1d83946842
+  toCast 8fa02c1f7d694f4a6f41bebb2b1ef04f
+  toMovie fd3d482c37ea484047ae009d22900159
+  toNodes cd1a61602e7c432a74692b91370d12f7
+import  -/  resource-pool-0.2.3.2@resource-pool-0.2.3.2-1AOSrWwsk6kGNVrZRdikMV:Data.Pool 884c4df9f84404a02df7ad6dae1b4ca2
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text 02cbbc20bdd508fabc38de38896bbae0
+import  -/  text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Internal a2f6f66c5bb1247458d9fa25257ab188
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Reader 1b607a084a390ae0e50e8f8dcbf2541a
+333efff67507b790dc3c4f41bb39150f
+  $s!1 :: Type.MNode -> Data.Map.Base.Map Type.MNode a -> a
+  {- Arity: 2,
+     Strictness: <S(S(SSS)L),1*U(U(U,U,U),U(U,U,U))><S,1*U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a (w :: Type.MNode) (w1 :: Data.Map.Base.Map Type.MNode a) ->
+                 case w of ww { Type.MNode ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 Data.$wpoly_go10 @ a ww4 ww5 ww6 ww2 w1 } }) -}
+faccf469a3a37f3b39266c9587fe55a1
+  $s$fApplicativeReaderT ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Data.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$cp1Applicative
+                     @ r)
+                  (\ @ a (eta :: a) (eta1 :: r) ->
+                   GHC.Base.const
+                     @ (GHC.Types.IO a)
+                     @ r
+                     (GHC.Base.returnIO @ a eta)
+                     eta1)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <a>_R
+                   ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                 <*>_N <r>_R <GHC.Types.IO>_R <a>_N))
+                  (Data.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<*> @ r)
+                  (Control.Monad.Trans.Reader.$fApplicativeReaderT_$c*>
+                     @ GHC.Types.IO
+                     @ r
+                     Data.$s$fApplicativeReaderT_$dApplicative)
+                  (Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<*
+                     @ GHC.Types.IO
+                     @ r
+                     Data.$s$fApplicativeReaderT_$dApplicative) -}
+fa7b503e22f7bd209eb5a49293f58967
+  $s$fApplicativeReaderT_$dApplicative ::
+    GHC.Base.Applicative GHC.Types.IO
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) GHC.Base.$fApplicativeIO -}
+696131e3707e06fa9f0e3d315890c08b
+  $s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<*> ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,1*C1(U))))><L,1*C1(C1(U(U,U)))><L,U><S,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (f :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO (a -> b))
+                   (v :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a) ->
+                 GHC.Base.$
+                   @ 'GHC.Types.PtrRepLifted
+                   @ (r -> GHC.Types.IO b)
+                   @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (\ (tpl :: r -> GHC.Types.IO b) -> tpl)
+                     `cast`
+                   (<r -> GHC.Types.IO b>_R
+                    ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N <r>_R <GHC.Types.IO>_R <b>_N))
+                   (\ (r1 :: r) ->
+                    GHC.Base.$fApplicativeIO_$sap
+                      @ a
+                      @ b
+                      (Control.Monad.Trans.Reader.runReaderT
+                         @ r
+                         @ *
+                         @ GHC.Types.IO
+                         @ (a -> b)
+                         f
+                         r1)
+                      (Control.Monad.Trans.Reader.runReaderT
+                         @ r
+                         @ *
+                         @ GHC.Types.IO
+                         @ a
+                         v
+                         r1))) -}
+9b7fc582ad2ae4712a52b3275f0e56ef
+  $s$fApplicativeReaderT_$s$fApplicativeReaderT_$cp1Applicative ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Data.$s$fApplicativeReaderT_$s$fFunctorReaderT -}
+c113083d84aa5ff681bd4676dd0f3289
+  $s$fApplicativeReaderT_$s$fFunctorReaderT ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Data.$s$fApplicativeReaderT_$s$fFunctorReaderT_$cfmap @ r)
+                  (Data.$s$fApplicativeReaderT_$s$fFunctorReaderT_$c<$ @ r) -}
+55d200c6acfcfbaee86ca5ba9ccac9d1
+  $s$fApplicativeReaderT_$s$fFunctorReaderT_$c<$ ::
+    a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,U><C(C(S(SL))),1*C1(C1(U(U,A)))><L,U><S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (eta :: a)
+                   (eta1 :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (eta2 :: r) ->
+                 let {
+                   f :: b -> a {- Arity: 1 -} = \ (ds1 :: b) -> eta
+                 } in
+                 (GHC.Base.$
+                    @ 'GHC.Types.PtrRepLifted
+                    @ (r -> GHC.Types.IO a)
+                    @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                    (\ (tpl :: r -> GHC.Types.IO a) -> tpl)
+                      `cast`
+                    (<r -> GHC.Types.IO a>_R
+                     ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                   <*>_N <r>_R <GHC.Types.IO>_R <a>_N))
+                    (let {
+                       g :: r -> GHC.Types.IO b
+                       = Control.Monad.Trans.Reader.runReaderT
+                           @ r
+                           @ *
+                           @ GHC.Types.IO
+                           @ b
+                           eta1
+                     } in
+                     (\ (x :: r)
+                        (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                      (GHC.Base.$fFunctorIO_$cfmap @ b @ a f (g x))
+                        `cast`
+                      (GHC.Types.N:IO[0] <a>_R)
+                        eta3)
+                       `cast`
+                     (<r>_R ->_R Sym (GHC.Types.N:IO[0] <a>_R))))
+                   `cast`
+                 (Control.Monad.Trans.Reader.N:ReaderT[0]
+                      <*>_N <r>_R <GHC.Types.IO>_R <a>_N)
+                   eta2)
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <a>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b>_R
+                 ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                               <*>_N <r>_R <GHC.Types.IO>_R <a>_N)) -}
+7768aa48f5b8f3d6116893b5fb91f219
+  $s$fApplicativeReaderT_$s$fFunctorReaderT_$cfmap ::
+    (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,1*C1(U)><C(C(S(SL))),1*C1(C1(U(U,U)))><L,U><S,U>,
+     Inline: INLINE (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (f :: a -> b)
+                   (eta :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (eta1 :: r) ->
+                 (GHC.Base.$
+                    @ 'GHC.Types.PtrRepLifted
+                    @ (r -> GHC.Types.IO b)
+                    @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                    (\ (tpl :: r -> GHC.Types.IO b) -> tpl)
+                      `cast`
+                    (<r -> GHC.Types.IO b>_R
+                     ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                   <*>_N <r>_R <GHC.Types.IO>_R <b>_N))
+                    (let {
+                       g :: r -> GHC.Types.IO a
+                       = Control.Monad.Trans.Reader.runReaderT
+                           @ r
+                           @ *
+                           @ GHC.Types.IO
+                           @ a
+                           eta
+                     } in
+                     (\ (x :: r)
+                        (eta2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                      (GHC.Base.$fFunctorIO_$cfmap @ a @ b f (g x))
+                        `cast`
+                      (GHC.Types.N:IO[0] <b>_R)
+                        eta2)
+                       `cast`
+                     (<r>_R ->_R Sym (GHC.Types.N:IO[0] <b>_R))))
+                   `cast`
+                 (Control.Monad.Trans.Reader.N:ReaderT[0]
+                      <*>_N <r>_R <GHC.Types.IO>_R <b>_N)
+                   eta1)
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <a -> b>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a>_R
+                 ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                               <*>_N <r>_R <GHC.Types.IO>_R <b>_N)) -}
+abc33aa2d4101a8bc16fbb2b87f4fe44
+  $s$fMonadReaderT ::
+    GHC.Base.Monad (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Data.$s$fMonadReaderT_$s$fMonadReaderT_$cp1Monad @ r)
+                  (Data.$s$fMonadReaderT_$s$fMonadReaderT_$c>>= @ r)
+                  (Data.$s$fMonadReaderT_$s$fMonadReaderT_$c>> @ r)
+                  (Data.$s$fMonadReaderT_$s$fMonadReaderT_$creturn @ r)
+                  (Data.$s$fMonadReaderT_$s$fMonadReaderT_$cfail @ r) -}
+29d586c0a9dfd344e8950b5f2bed50d5
+  $s$fMonadReaderT_$s$fMonadReaderT_$c>> ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,A)))><L,1*C1(C1(U(U,U)))><L,U><S,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (m1 :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (k :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b) ->
+                 GHC.Base.$
+                   @ 'GHC.Types.PtrRepLifted
+                   @ (r -> GHC.Types.IO b)
+                   @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (\ (tpl :: r -> GHC.Types.IO b) -> tpl)
+                     `cast`
+                   (<r -> GHC.Types.IO b>_R
+                    ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N <r>_R <GHC.Types.IO>_R <b>_N))
+                   (\ (r1 :: r) ->
+                    GHC.Base.bindIO
+                      @ a
+                      @ b
+                      (Control.Monad.Trans.Reader.runReaderT
+                         @ r
+                         @ *
+                         @ GHC.Types.IO
+                         @ a
+                         m1
+                         r1)
+                      (\ (a1 :: a) ->
+                       Control.Monad.Trans.Reader.runReaderT
+                         @ r
+                         @ *
+                         @ GHC.Types.IO
+                         @ b
+                         k
+                         r1))) -}
+eff88e1dea5ec0d8d3ab1f044aa60aa9
+  $s$fMonadReaderT_$s$fMonadReaderT_$c>>= ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> (a -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,U)))><L,1*C1(C1(C1(U(U,U))))><L,U><S,U>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (m1 :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (k :: a -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b) ->
+                 GHC.Base.$
+                   @ 'GHC.Types.PtrRepLifted
+                   @ (r -> GHC.Types.IO b)
+                   @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (\ (tpl :: r -> GHC.Types.IO b) -> tpl)
+                     `cast`
+                   (<r -> GHC.Types.IO b>_R
+                    ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N <r>_R <GHC.Types.IO>_R <b>_N))
+                   (\ (r1 :: r) ->
+                    GHC.Base.bindIO
+                      @ a
+                      @ b
+                      (Control.Monad.Trans.Reader.runReaderT
+                         @ r
+                         @ *
+                         @ GHC.Types.IO
+                         @ a
+                         m1
+                         r1)
+                      (\ (a1 :: a) ->
+                       Control.Monad.Trans.Reader.runReaderT
+                         @ r
+                         @ *
+                         @ GHC.Types.IO
+                         @ b
+                         (k a1)
+                         r1))) -}
+c10c99afabdc7c7ca94b1015f5a09144
+  $s$fMonadReaderT_$s$fMonadReaderT_$cfail ::
+    GHC.Base.String
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+  {- Arity: 3, Strictness: <B,U><B,A><B,U>x,
+     Inline: INLINE (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ @ r @ a (msg :: GHC.Base.String) ->
+                 let {
+                   eta :: GHC.Types.IO a = GHC.Base.$fMonadIO_$cfail @ a msg
+                 } in
+                 (\ (eta1 :: r) -> GHC.Base.const @ (GHC.Types.IO a) @ r eta eta1)
+                   `cast`
+                 (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                           <*>_N <r>_R <GHC.Types.IO>_R <a>_N))) -}
+ac41de26cab8b6f12fc21c03b03fa2eb
+  $s$fMonadReaderT_$s$fMonadReaderT_$cp1Monad ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Data.$s$fApplicativeReaderT -}
+16eb6d0880eec9b00a36e9c010a8d5e4
+  $s$fMonadReaderT_$s$fMonadReaderT_$creturn ::
+    a -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,U><L,A><S,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ r
+                   @ a
+                   (eta :: a)
+                   (eta1 :: r)
+                   (eta2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 (GHC.Base.returnIO @ a eta) `cast` (GHC.Types.N:IO[0] <a>_R) eta2)
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N).
+                 <a>_R
+                 ->_R Trans
+                          (<r>_R ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                          (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                    <*>_N <r>_R <GHC.Types.IO>_R <a>_N))) -}
+589dc8c768adace0eaf8c9c63a7b8490
+  $sfromList :: [(Type.MNode, a)] -> Data.Map.Base.Map Type.MNode a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a (ds1 :: [(Type.MNode, a)]) ->
+                 case ds1 of wild {
+                   [] -> Data.Map.Base.Tip @ Type.MNode @ a
+                   : ds2 ds3
+                   -> case ds2 of wild1 { (,) kx x ->
+                      case ds3 of wild2 {
+                        []
+                        -> case x of x1 { DEFAULT ->
+                           case kx of dt { Type.MNode ipv ipv1 ->
+                           Data.Map.Base.Bin
+                             @ Type.MNode
+                             @ a
+                             1#
+                             dt
+                             x1
+                             (Data.Map.Base.Tip @ Type.MNode @ a)
+                             (Data.Map.Base.Tip @ Type.MNode @ a) } }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds4 ->
+                           case kx of ww { Type.MNode ww1 ww2 ->
+                           case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                           case ky of ww7 { Type.MNode ww8 ww9 ->
+                           case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                           case Data.Text.$w$ccompare ww4 ww5 ww6 ww11 ww12 ww13 of wild4 {
+                             GHC.Types.LT
+                             -> case x of x0 { DEFAULT ->
+                                Data.$wpoly_go4
+                                  @ a
+                                  1#
+                                  (Data.Map.Base.Bin
+                                     @ Type.MNode
+                                     @ a
+                                     1#
+                                     ww
+                                     x0
+                                     (Data.Map.Base.Tip @ Type.MNode @ a)
+                                     (Data.Map.Base.Tip @ Type.MNode @ a))
+                                  wild2 }
+                             GHC.Types.EQ
+                             -> case ww2 of ww16 { Data.Text.Internal.Text ww17 ww18 ww19 ->
+                                case ww9 of ww20 { Data.Text.Internal.Text ww21 ww22 ww23 ->
+                                case Data.Text.$w$ccompare ww17 ww18 ww19 ww21 ww22 ww23 of wild5 {
+                                  DEFAULT
+                                  -> case x of x0 { DEFAULT ->
+                                     Data.$sfromList1
+                                       @ a
+                                       (Data.Map.Base.Bin
+                                          @ Type.MNode
+                                          @ a
+                                          1#
+                                          ww
+                                          x0
+                                          (Data.Map.Base.Tip @ Type.MNode @ a)
+                                          (Data.Map.Base.Tip @ Type.MNode @ a))
+                                       wild2 }
+                                  GHC.Types.LT
+                                  -> case x of x0 { DEFAULT ->
+                                     Data.$wpoly_go4
+                                       @ a
+                                       1#
+                                       (Data.Map.Base.Bin
+                                          @ Type.MNode
+                                          @ a
+                                          1#
+                                          ww
+                                          x0
+                                          (Data.Map.Base.Tip @ Type.MNode @ a)
+                                          (Data.Map.Base.Tip @ Type.MNode @ a))
+                                       wild2 } } } }
+                             GHC.Types.GT
+                             -> case x of x0 { DEFAULT ->
+                                Data.$sfromList1
+                                  @ a
+                                  (Data.Map.Base.Bin
+                                     @ Type.MNode
+                                     @ a
+                                     1#
+                                     ww
+                                     x0
+                                     (Data.Map.Base.Tip @ Type.MNode @ a)
+                                     (Data.Map.Base.Tip @ Type.MNode @ a))
+                                  wild2 } } } } } } } } } }) -}
+5a9ec90fa7993708ee3d7c6191d2a2dd
+  $sfromList1 ::
+    Data.Map.Base.Map Type.MNode a1
+    -> [(Type.MNode, a1)] -> Data.Map.Base.Map Type.MNode a1
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+150ea7d82a56e21b86a45d1ec4470a42
+  $tc'ServerState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10722363033095867286##
+                   8396089786788465195##
+                   Data.$trModule
+                   Data.$tc'ServerState1) -}
+2975927479985e077cade78d470799b2
+  $tc'ServerState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'ServerState"#) -}
+30a160b8f4c9461d1d22e76d2e50aa06
+  $tcServerState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   677456347933647208##
+                   10081846770287062021##
+                   Data.$trModule
+                   Data.$tcServerState1) -}
+36f2e011915a729b271cb83afc88a8fa
+  $tcServerState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "ServerState"#) -}
+33036c225a944cef1b93746217408b08
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Data.$trModule2 Data.$trModule1) -}
+c0e2de9a96959fe058ff84b1e6df2709
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Data"#) -}
+cd23c81aa8092f99a8de3114ab9ec29b
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "project-0.1.0.0-A3bp1bchPHa6IfVHSogVMv"#) -}
+221cadf16c547a39a1b6cbd933795140
+  $w$sgo4 ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> a1
+    -> Data.Map.Base.Map Type.MNode a1
+    -> Data.Map.Base.Map Type.MNode a1
+  {- Arity: 4, Strictness: <L,U(U,U,U)><L,U(U,U,U)><S,1*U><S,1*U>,
+     Inline: [0] -}
+2b26b1bbb9eaa7c50770f0c0c54b270b
+  $wgo ::
+    [Database.Bolt.Value.Type.Value]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [Type.Cast] #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [0] -}
+5d4337f755fa60bf7c50ccb8b0a1b2a0
+  $wpoly_go10 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> Data.Map.Base.Map Type.MNode a
+    -> a
+  {- Arity: 5, Strictness: <S,U><S,U><S,U><L,U(U,U,U)><S,1*U>,
+     Inline: [0] -}
+8e1c02d5ae60188ea465eb82bdce889e
+  $wpoly_go4 ::
+    GHC.Prim.Int#
+    -> Data.Map.Base.Map Type.MNode a
+    -> [(Type.MNode, a)]
+    -> Data.Map.Base.Map Type.MNode a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+c5ddfa98f16756a14f52157b58b62822
+  data ServerState
+    = ServerState {pool :: Data.Pool.Pool
+                             Database.Bolt.Connection.Type.Pipe}
+8fef341c52d1c5e17ab1f436d4ddda09
+  type WebM =
+    Control.Monad.Trans.Reader.ReaderT Data.ServerState GHC.Types.IO
+    :: * -> *
+c687c2b2a92a4984f24d4475cc482f63
+  constructState ::
+    Database.Bolt.Connection.Type.BoltCfg
+    -> GHC.Types.IO Data.ServerState
+  {- Arity: 2, Strictness: <L,U(U(U),U(U),U,U(U),A,U,U(U),U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Data.constructState1
+                  `cast`
+                (<Database.Bolt.Connection.Type.BoltCfg>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <Data.ServerState>_R)) -}
+a892caf2635882ef9908af70397b0868
+  constructState1 ::
+    Database.Bolt.Connection.Type.BoltCfg
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, Data.ServerState #)
+  {- Arity: 2, Strictness: <L,U(U(U),U(U),U,U(U),A,U,U(U),U,U)><S,U>,
+     Unfolding: (\ (bcfg :: Database.Bolt.Connection.Type.BoltCfg)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Data.Pool.$wcreatePool
+                        @ Database.Bolt.Connection.Type.Pipe
+                        (Database.Bolt.Connection.Pipe.connect
+                           @ GHC.Types.IO
+                           Control.Monad.IO.Class.$fMonadIOIO
+                           bcfg)
+                        Data.constructState3
+                          `cast`
+                        (<Database.Bolt.Connection.Type.Pipe>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                        4#
+                        Data.constructState2
+                          `cast`
+                        (Trans
+                             (Sym (Data.Fixed.N:Fixed[0] <Data.Fixed.E12>_P))
+                             (Sym (Data.Time.Clock.UTC.N:NominalDiffTime[0])))
+                        1#
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv, Data.ServerState ipv1 #) }) -}
+fc281fd514c654d5855c5f19f4ac0418
+  constructState2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (500000000000000) -}
+6492a7420b4c3e51e9667db9d29f14ca
+  constructState3 ::
+    Database.Bolt.Connection.Type.Pipe
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2,
+     Strictness: <S(S(LLLLS(S))L),1*U(1*U(U(U),A,A,A,1*U(U)),A)><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Database.Bolt.Connection.Type.Pipe)
+                   (w1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case eta of wild { Database.Bolt.Connection.Type.Pipe ds1 ds2 ->
+                 case ds1 of ww { Network.Socket.Types.MkSocket ww1 ww2 ww3 ww4 ww5 ->
+                 case ww5 of ww6 { GHC.MVar.MVar ww7 ->
+                 Network.Socket.$wclose ww1 ww7 w1 } } }) -}
+89f5b94b10da2bd6d4a82d5b28fef433
+  pool ::
+    Data.ServerState
+    -> Data.Pool.Pool Database.Bolt.Connection.Type.Pipe
+  RecSel Left Data.ServerState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S),1*U(1*U(U,U,U,U,U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds1 :: Data.ServerState) ->
+                 case ds1 of wild { Data.ServerState ds2 -> ds2 }) -}
+8b56edfca6858cc1787c41c1dfa8d427
+  queryGraph ::
+    GHC.Types.Int
+    -> Database.Bolt.Connection.BoltActionT GHC.Types.IO Type.MGraph
+  {- Arity: 1, Strictness: <L,U> -}
+33ec05113067f7272ca20a2c5ebd1a3f
+  queryMovie ::
+    Data.Text.Internal.Text
+    -> Database.Bolt.Connection.BoltActionT GHC.Types.IO Type.MovieInfo
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (title :: Data.Text.Internal.Text) ->
+                 let {
+                   eta :: Control.Monad.Trans.Reader.ReaderT
+                            Database.Bolt.Connection.Type.Pipe
+                            GHC.Types.IO
+                            [Database.Bolt.Record.Record]
+                   = Data.queryMovie12
+                       Data.queryMovie11
+                       (Database.Bolt.Connection.Instances.tokenMap_$sfromList
+                          @ Database.Bolt.Value.Type.Value
+                          (GHC.Types.:
+                             @ (Data.Text.Internal.Text, Database.Bolt.Value.Type.Value)
+                             (Data.queryMovie10, Database.Bolt.Value.Type.T title)
+                             (GHC.Types.[]
+                                @ (Data.Text.Internal.Text, Database.Bolt.Value.Type.Value))))
+                 } in
+                 (\ (r1 :: Database.Bolt.Connection.Type.Pipe)
+                    (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                  case (eta
+                          `cast`
+                        (Control.Monad.Trans.Reader.N:ReaderT[0]
+                             <*>_N
+                             <Database.Bolt.Connection.Type.Pipe>_R
+                             <GHC.Types.IO>_R
+                             <[Database.Bolt.Record.Record]>_N)
+                          r1)
+                         `cast`
+                       (GHC.Types.N:IO[0] <[Database.Bolt.Record.Record]>_R)
+                         s of ds1 { (#,#) ipv ipv1 ->
+                  case Data.queryMovie10 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                  case ipv1 of wild {
+                    []
+                    -> case GHC.List.badHead
+                       ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld, Type.MovieInfo #)
+                       of {}
+                    : x ds2
+                    -> case Database.Bolt.Record.$wpoly_go1
+                              @ Database.Bolt.Value.Type.Value
+                              ww1
+                              ww2
+                              ww3
+                              x of wild1 {
+                         GHC.Types.False
+                         -> case GHC.Prim.raiseIO#
+                                   @ GHC.Exception.SomeException
+                                   @ Database.Bolt.Value.Type.Value
+                                   Data.queryMovie8
+                                   ipv
+                            ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld, Type.MovieInfo #)
+                            of {}
+                         GHC.Types.True
+                         -> case Database.Bolt.Record.$wpoly_go10
+                                   @ Database.Bolt.Value.Type.Value
+                                   ww1
+                                   ww2
+                                   ww3
+                                   x of wild2 {
+                              DEFAULT
+                              -> GHC.Prim.raiseIO#
+                                   @ GHC.Exception.SomeException
+                                   @ Type.MovieInfo
+                                   Data.queryMovie5
+                                   ipv
+                              Database.Bolt.Value.Type.T title1
+                              -> case Data.queryMovie4 of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                                 case Database.Bolt.Record.$wpoly_go1
+                                        @ Database.Bolt.Value.Type.Value
+                                        ww5
+                                        ww6
+                                        ww7
+                                        x of wild3 {
+                                   GHC.Types.False
+                                   -> case GHC.Prim.raiseIO#
+                                             @ GHC.Exception.SomeException
+                                             @ Database.Bolt.Value.Type.Value
+                                             Data.queryMovie8
+                                             ipv
+                                      ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                Type.MovieInfo #)
+                                      of {}
+                                   GHC.Types.True
+                                   -> case Database.Bolt.Record.$wpoly_go10
+                                             @ Database.Bolt.Value.Type.Value
+                                             ww5
+                                             ww6
+                                             ww7
+                                             x of wild4 {
+                                        DEFAULT
+                                        -> GHC.Prim.raiseIO#
+                                             @ GHC.Exception.SomeException
+                                             @ Type.MovieInfo
+                                             Data.queryMovie1
+                                             ipv
+                                        Database.Bolt.Value.Type.L members
+                                        -> case Data.$wgo members ipv of ds3 { (#,#) ipv2 ipv3 ->
+                                           (# ipv2, Type.MovieInfo title1 ipv3 #) } } } } } } } } })
+                   `cast`
+                 (Trans
+                      (<Database.Bolt.Connection.Type.Pipe>_R
+                       ->_R Sym (GHC.Types.N:IO[0] <Type.MovieInfo>_R))
+                      (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                <*>_N
+                                <Database.Bolt.Connection.Type.Pipe>_R
+                                <GHC.Types.IO>_R
+                                <Type.MovieInfo>_N)))) -}
+36ea2901abd0104aa77f7647d168a46b
+  queryMovie1 :: GHC.Exception.SomeException
+  {- Unfolding: (GHC.IO.Exception.$fExceptionIOException_$ctoException
+                   Data.queryMovie2) -}
+dad9dd400fb8917cdd13d4d8bff4c97d
+  queryMovie10 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "title"#) -}
+9d96cb8c827160a6b6d46a393772fcee
+  queryMovie11 :: Data.Text.Internal.Text
+918b1555c4938e752e1996a906ea21f8
+  queryMovie12 ::
+    Data.Text.Internal.Text
+    -> Data.Map.Base.Map
+         Data.Text.Internal.Text Database.Bolt.Value.Type.Value
+    -> Database.Bolt.Connection.BoltActionT
+         GHC.Types.IO [Database.Bolt.Record.Record]
+  {- Unfolding: (Database.Bolt.Connection.queryP
+                   @ GHC.Types.IO
+                   Control.Monad.IO.Class.$fMonadIOIO) -}
+a8bb6d8bbc9578bed50fb4ff7db570c5
+  queryMovie2 :: GHC.IO.Exception.IOException
+  {- Unfolding: (GHC.IO.Exception.IOError
+                   (GHC.Base.Nothing @ GHC.IO.Handle.Types.Handle)
+                   GHC.IO.Exception.UserError
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Data.queryMovie3
+                   (GHC.Base.Nothing @ Foreign.C.Types.CInt)
+                   (GHC.Base.Nothing @ GHC.IO.FilePath)) -}
+6c21b0c6718eb5bf3df159e13f2c976a
+  queryMovie3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Pattern match failure in do expression at src/Data.hs:39:23-31"#) -}
+5a68658f8a69417530c48e46621c2d4c
+  queryMovie4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "cast"#) -}
+7861a42ea6cb1e028f49530795297485
+  queryMovie5 :: GHC.Exception.SomeException
+  {- Unfolding: (GHC.IO.Exception.$fExceptionIOException_$ctoException
+                   Data.queryMovie6) -}
+4a685dcf7d0ceae058167649c9c819e3
+  queryMovie6 :: GHC.IO.Exception.IOException
+  {- Unfolding: (GHC.IO.Exception.IOError
+                   (GHC.Base.Nothing @ GHC.IO.Handle.Types.Handle)
+                   GHC.IO.Exception.UserError
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Data.queryMovie7
+                   (GHC.Base.Nothing @ Foreign.C.Types.CInt)
+                   (GHC.Base.Nothing @ GHC.IO.FilePath)) -}
+5f6a2d052209d334e9e1c96ed08565bb
+  queryMovie7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Pattern match failure in do expression at src/Data.hs:38:23-29"#) -}
+06ee84c441b4307815bce004090d8079
+  queryMovie8 :: GHC.Exception.SomeException
+  {- Unfolding: (GHC.IO.Exception.$fExceptionIOException_$ctoException
+                   Data.queryMovie9) -}
+4c0603136d444680a1ac37f5d7538949
+  queryMovie9 :: GHC.IO.Exception.IOException
+  {- Unfolding: (GHC.IO.Exception.IOError
+                   (GHC.Base.Nothing @ GHC.IO.Handle.Types.Handle)
+                   GHC.IO.Exception.UserError
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Database.Bolt.Record.at1
+                   (GHC.Base.Nothing @ Foreign.C.Types.CInt)
+                   (GHC.Base.Nothing @ GHC.IO.FilePath)) -}
+7c0de0f82d5d335ad71915951cb7258d
+  querySearch ::
+    Data.Text.Internal.Text
+    -> Database.Bolt.Connection.BoltActionT GHC.Types.IO [Type.Movie]
+  {- Arity: 1, Strictness: <L,1*U(U,U,U)> -}
+"SPEC/Data $fApplicativeReaderT @ IO _" [ALWAYS] forall @ r
+                                                        ($dApplicative :: GHC.Base.Applicative
+                                                                            GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT @ GHC.Types.IO
+                                                  @ r
+                                                  $dApplicative
+  = Data.$s$fApplicativeReaderT @ r
+"SPEC/Data $fApplicativeReaderT_$c<*> @ IO _" [ALWAYS] forall @ r
+                                                              ($dApplicative :: GHC.Base.Applicative
+                                                                                  GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<*> @ GHC.Types.IO
+                                                        @ r
+                                                        $dApplicative
+  = Data.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<*> @ r
+"SPEC/Data $fApplicativeReaderT_$cp1Applicative @ IO _" [ALWAYS] forall @ r
+                                                                        ($dApplicative :: GHC.Base.Applicative
+                                                                                            GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$cp1Applicative @ GHC.Types.IO
+                                                                  @ r
+                                                                  $dApplicative
+  = Data.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$cp1Applicative
+      @ r
+"SPEC/Data $fFunctorReaderT @ IO _" [ALWAYS] forall @ r
+                                                    ($dFunctor :: GHC.Base.Functor GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fFunctorReaderT @ GHC.Types.IO
+                                              @ r
+                                              $dFunctor
+  = Data.$s$fApplicativeReaderT_$s$fFunctorReaderT @ r
+"SPEC/Data $fFunctorReaderT_$c<$ @ IO _" [ALWAYS] forall @ r
+                                                         ($dFunctor :: GHC.Base.Functor
+                                                                         GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fFunctorReaderT_$c<$ @ GHC.Types.IO
+                                                   @ r
+                                                   $dFunctor
+  = Data.$s$fApplicativeReaderT_$s$fFunctorReaderT_$c<$ @ r
+"SPEC/Data $fFunctorReaderT_$cfmap @ IO _" [ALWAYS] forall @ r
+                                                           ($dFunctor :: GHC.Base.Functor
+                                                                           GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fFunctorReaderT_$cfmap @ GHC.Types.IO
+                                                     @ r
+                                                     $dFunctor
+  = Data.$s$fApplicativeReaderT_$s$fFunctorReaderT_$cfmap @ r
+"SPEC/Data $fMonadReaderT @ IO _" [ALWAYS] forall @ r
+                                                  ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT @ GHC.Types.IO
+                                            @ r
+                                            $dMonad
+  = Data.$s$fMonadReaderT @ r
+"SPEC/Data $fMonadReaderT_$c>> @ IO _" [ALWAYS] forall @ r
+                                                       ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$c>> @ GHC.Types.IO
+                                                 @ r
+                                                 $dMonad
+  = Data.$s$fMonadReaderT_$s$fMonadReaderT_$c>> @ r
+"SPEC/Data $fMonadReaderT_$c>>= @ IO _" [ALWAYS] forall @ r
+                                                        ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$c>>= @ GHC.Types.IO
+                                                  @ r
+                                                  $dMonad
+  = Data.$s$fMonadReaderT_$s$fMonadReaderT_$c>>= @ r
+"SPEC/Data $fMonadReaderT_$cfail @ IO _" [ALWAYS] forall @ r
+                                                         ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$cfail @ GHC.Types.IO
+                                                   @ r
+                                                   $dMonad
+  = Data.$s$fMonadReaderT_$s$fMonadReaderT_$cfail @ r
+"SPEC/Data $fMonadReaderT_$cp1Monad @ IO _" [ALWAYS] forall @ r
+                                                            ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$cp1Monad @ GHC.Types.IO
+                                                      @ r
+                                                      $dMonad
+  = Data.$s$fMonadReaderT_$s$fMonadReaderT_$cp1Monad @ r
+"SPEC/Data $fMonadReaderT_$creturn @ IO _" [ALWAYS] forall @ r
+                                                           ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$creturn @ GHC.Types.IO
+                                                     @ r
+                                                     $dMonad
+  = Data.$s$fMonadReaderT_$s$fMonadReaderT_$creturn @ r
+"SPEC/Data fromList @ MNode _" [ALWAYS] forall @ a
+                                               ($dOrd :: GHC.Classes.Ord Type.MNode)
+  Data.Map.Strict.fromList @ Type.MNode @ a $dOrd
+  = Data.$sfromList @ a
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

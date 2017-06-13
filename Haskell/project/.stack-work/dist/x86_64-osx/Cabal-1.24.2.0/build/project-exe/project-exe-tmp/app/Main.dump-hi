@@ -1,0 +1,235 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-12 21:31:08.848971 UTC
+
+interface main@main:Main 8002
+  interface hash: 11ae4fbaff297745171f59d1091cc4f0
+  ABI hash: daeaaf801693315c97368eda834745eb
+  export-list hash: 22a3205bcd298be4034d77bf25e7b82b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 397b4f60889850ee3c44f2f94bc0a81b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+  Main.myConfiguration
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      data-binary-ieee754-0.4.4@data-binary-ieee754-0.4.4-7iiF2mP1jcB6tVSPgIyBOi
+                      data-default-0.7.1.1@data-default-0.7.1.1-7EGYJX2YWqWJRbPFUHNoCr
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK
+                      data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl
+                      data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-simple-0.4.0.5@network-simple-0.4.0.5-IajrPOJHmVZJcXm3bjN8OW
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      transformers-0.5.2.0@transformers-0.5.2.0
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         data-default-instances-containers-0.0.1@data-default-instances-containers-0.0.1-bob6IQGdJq92c061H46zK:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1@data-default-instances-dlist-0.0.1-FKnZBeovJMk4M89wQxDhjl:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1@data-default-instances-old-locale-0.0.1-9zaGDEmgOixKkmLylWdN5l:Data.Default.Instances.OldLocale
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Instances
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Instances
+         hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Value.Structure
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-6Wnps4GD7EFnRucVzXIFD:Data.DList
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO c9de64c5f5407c4cf1c52500c4d15200
+import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 6e6ff0df81cdc438838c4b9b3d4260b1
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt 1cca00e23f124bebfe3931123596ce55
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection 2cdb47a4e91c279445d9b02767e0fd27
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Pipe c063ddaf3295f98a4b578f04e9a0769d
+import  -/  hasbolt-0.1.0.2@hasbolt-0.1.0.2-48VwuBPpKda4SUnQUpSa8V:Database.Bolt.Connection.Type e1297497276cd22a929ee86b3fb6c185
+566bf4b1908d39f93ff8a995fd3b80b9
+  $s$fShow[]1 ::
+    [Data.Map.Base.Map
+       Data.Text.Internal.Text Database.Bolt.Value.Type.Value]
+    -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (x :: [Data.Map.Base.Map
+                            Data.Text.Internal.Text Database.Bolt.Value.Type.Value]) ->
+                 GHC.Show.showList__
+                   @ (Data.Map.Base.Map
+                        Data.Text.Internal.Text Database.Bolt.Value.Type.Value)
+                   Main.$s$fShow[]2
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+4535c59f88f6c798cbe5bb9ae0bdc79a
+  $s$fShow[]2 ::
+    Data.Map.Base.Map
+      Data.Text.Internal.Text Database.Bolt.Value.Type.Value
+    -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ (w3 :: Data.Map.Base.Map
+                            Data.Text.Internal.Text Database.Bolt.Value.Type.Value) ->
+                 Data.Map.Base.$w$cshowsPrec
+                   @ Data.Text.Internal.Text
+                   @ Database.Bolt.Value.Type.Value
+                   Data.Text.Show.$fShowText
+                   Database.Bolt.Value.Type.$fShowValue
+                   0#
+                   w3) -}
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+58f4681f83d12bdc60f466c8cc19ac6a
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+5a91228f2ba498db95a186c3462b8b37
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Database.Bolt.Connection.Pipe.connect
+                         @ GHC.Types.IO
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         Main.myConfiguration)
+                        `cast`
+                      (GHC.Types.N:IO[0] <Database.Bolt.Connection.Type.Pipe>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ((Main.main3
+                          Main.main2
+                          (Data.Map.Base.Tip
+                             @ Data.Text.Internal.Text
+                             @ Database.Bolt.Value.Type.Value))
+                         `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N
+                            <Database.Bolt.Connection.Type.Pipe>_R
+                            <GHC.Types.IO>_R
+                            <[Database.Bolt.Record.Record]>_N)
+                         ipv1)
+                        `cast`
+                      (GHC.Types.N:IO[0] <[Database.Bolt.Record.Record]>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (Main.$s$fShow[]1 ipv3)
+                        GHC.Types.True
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case ipv1 of wild { Database.Bolt.Connection.Type.Pipe ds4 ds5 ->
+                 case ds4 of ww { Network.Socket.Types.MkSocket ww1 ww2 ww3 ww4 ww5 ->
+                 case ww5 of ww6 { GHC.MVar.MVar ww7 ->
+                 Network.Socket.$wclose ww1 ww7 ipv4 } } } } } }) -}
+3ccddd4198046ecf531330fdcc5d4c51
+  main2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "MATCH (n:Person) WHERE n.name CONTAINS \"Arthur\" RETURN n.title"#) -}
+6afa3a4884fcd3e9770d98b6fd819502
+  main3 ::
+    Data.Text.Internal.Text
+    -> Data.Map.Base.Map
+         Data.Text.Internal.Text Database.Bolt.Value.Type.Value
+    -> Database.Bolt.Connection.BoltActionT
+         GHC.Types.IO [Database.Bolt.Record.Record]
+  {- Unfolding: (Database.Bolt.Connection.queryP
+                   @ GHC.Types.IO
+                   Control.Monad.IO.Class.$fMonadIOIO) -}
+ce3fcb9b5ef0ba636e72f8380cf90340
+  main4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+15f3a6b5828fb7b6ffddcd386b11ce5b
+  myConfiguration :: Database.Bolt.Connection.Type.BoltCfg
+  {- Strictness: m,
+     Unfolding: (Database.Bolt.Connection.Type.BoltCfg
+                   Main.myConfiguration9
+                   Main.myConfiguration8
+                   Main.myConfiguration7
+                   Main.myConfiguration6
+                   Main.myConfiguration5
+                   Main.myConfiguration4
+                   Main.myConfiguration3
+                   Main.myConfiguration2
+                   Main.myConfiguration1) -}
+3d3d1585aae088536e43c1bfc7afd1d9
+  myConfiguration1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "Mobicongress0199"#) -}
+a17a567f0c1b5ac606b4008275188a52
+  myConfiguration2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "neo4j"#) -}
+d0c24d023093c1c9106a29fbee075249
+  myConfiguration3 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 7687#) -}
+c7474eb2b95ccb86a7056e10d65cea05
+  myConfiguration4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "13.81.200.18"#) -}
+8a4ed64a350237604714a05735d4ae1f
+  myConfiguration5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 5#) -}
+b15434875d190b7fe45539502afe5ab4
+  myConfiguration6 :: GHC.Word.Word16
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Word.W16# 65535##) -}
+5371eb283bfda83c7517fcad0d8e5d60
+  myConfiguration7 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "hasbolt/1.0"#) -}
+369a09eaf008be55727a0c3920962b15
+  myConfiguration8 :: GHC.Word.Word32
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Word.W32# 1##) -}
+1a1337110f8f2c8f19c297ca0cacb6d4
+  myConfiguration9 :: GHC.Word.Word32
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Word.W32# 1616949271##) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

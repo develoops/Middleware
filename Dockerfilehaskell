@@ -1,0 +1,18 @@
+FROM haskell:8
+RUN mkdir -p /usr/src/proyecto
+WORKDIR /usr/src/proyecto
+
+
+ADD Main.hs proyecto.cabal stack.yaml /
+COPY Main.hs /usr/src/proyecto
+
+RUN stack new proyecto
+WORKDIR "/proyecto"
+COPY proyecto.cabal /usr/src/proyecto/proyecto -y
+COPY stack.yaml /usr/src/proyecto/proyecto -y
+RUN stack setup
+RUN stack build
+
+CMD ["stack","exec","proyecto"]
+
+
